@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>E6B Help</title>
+		<link href="e6b.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=320, user-scalable=no">
+	</head>
+	<body>
+		<div class="content">
+			<h1>Customize Aircraft</h1>
+			<p>You can customize the aircraft used in weight and balance calculations.</p>
+			<h1>Opening the aircraft editor</h1>
+			<p>In the Weight and Balance list of calculations, click the "Aircraft Editor" in the lower right. An Aircraft Editor will appear allowing you to
+			create and duplicate templates and edit them.</p>
+			<h1>Duplicate an existing aircraft</h1>
+			<p>In the Aircraft Editor, press "Copy Template". This will allow you to pick a pre-defined aircraft and make a copy that can be modified.</p>
+			<h1>Add a new template</h1>
+			<p>You can create a new template from scratch by pressing the '+' button in the lower left.</p>
+			<h1>Duplicate or delete existing templates</h1>
+			<p>Press the 'Edit' button in the upper right. To duplicate, select the aircraft template you wish to duplicate and press the 'Duplicate' button. To delete
+			pick the red delete button on the left of the template and confirm.</p>
+			<h1>Editing a template</h1>
+			<p>You can edit a template by picking the specified aircraft in the template list.</p>
+			<p>The parameters you need to supply for each aircraft are:</p>
+			<ul>
+				<li><b>Manufacturer</b> The manufacturer who built the aircraft. (i.e., Cessna, Bonanza, Mooney, etc.)</li>
+				<li><b>Aircraft Type</b> The model or type of aircraft. (i.e., C172R, G36, etc.)</li>
+				<li><b>Name</b> The name of the template; typically the aircraft's N number.</li>
+			</ul>
+			<p>These parameters are used to help identify the aircraft, and can be anything you wish. The following parameters are used to define the units
+			that are used when specifying the aircraft:</p>
+			<ul>
+				<li><b>Weight</b> The unit used for weight (lbs, kg, etc)</li>
+				<li><b>Arm</b> The unit used for arm (inches, cm)</li>
+				<li><b>Moment</b> Unit used for moment (foot-inches, kg-cm).</li>
+				<li><b>Speed</b> Unit used for speed (knots, mph, etc).</li>
+			</ul>
+			<p>Aircraft Data is data associated with the aircraft as a whole:</p>
+			<ul>
+				<li><b>V<sub>a</sub></b> The maneuvering speed for your aircraft</li>
+				<li><b>Max Weight</b> The maximum weight for your aircraft (used in calculating V<sub>a</sub>)</li>
+				<li><b>Empty Weight</b> The measured empty weight of your aircraft.</li>
+				<li><b>Emtpy Arm</b> The measured empty arm for your aircraft.</li>
+			</ul>
+			<p>Station Locations allow you to define certain predefined arm locations, such as the arm of the pilot's seat or the baggage compartment.</p>
+			<ul>
+				<li><b>Station Data: Name</b> The label used to describe the location (i.e., "Pilot Seat", "Baggage Compartment")</li>
+				<li><b>Station Data: Arm</b> The distance from the datum for the location</li>
+			</ul>
+			<p>Fuel Tank Locations allow you to define one or more fuel tanks, the carrying capacity of each tank and the type of fuel used. While the system permits
+			an unlimited number of fuel tanks to be specified, the E6B's internal algorithms makes the practical limit around 8 to 10 different
+			station locations for fuel.</p>
+			<ul>
+				<li><b>Fuel Tank: Name</b> A descriptive label for the fuel tank station (i.e., "Main Tanks", "Tip Tanks")</li>
+				<li><b>Fuel Tank: Volume</b> The maximum carrying capacity of the fuel tank.</li>
+				<li><b>Fuel Tank: Units</b> The unit used in describing the volume of fuel. (Gallons, Liters)</li>
+				<li><b>Fuel Tank: Type</b> The type of fuel, typically aviation gas.</li>
+				<li><b>Fuel Tank: Arm</b> The distance from the datum for this tank.</li>
+			</ul>
+			<p>Weight/Balance Envelope</p>
+			<p>The data entered here allows you to define the limits of the weight and balance for this aircraft, for different types of aircraft use. For
+			example, you can define the weight and balance limits for normal use and for utility use for a Cessna 172 by entering two weight/balance 
+			envelopes. Each graph is specified by a name and by the weight/arm points that define the enclosing polygon for the graph. Units are specified in
+			the weight and arm units above.</p>
+			<ul>
+				<li><b>Envelope Name</b> A descriptive label for the polygon defining the weight and balance limits for this usage. (i.e., "Normal", "Utility")</li>
+				<li><b>Envelope Data: Weight</b> One of several points for each polygon specifying the weight at that point.</li>
+				<li><b>Envelope Data: Arm</b> One of several points for each polygon specifying the arm at that point.</li>
+			</ul>
+		</div>
+	</body>
+</html>

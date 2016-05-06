@@ -1,0 +1,1852 @@
+<wb>
+	<group name="Bonanza">
+		<aircraft name="Beechcraft A36" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>136</va>
+			<wmax>3600</wmax>
+			<weight>2450</weight>
+			<arm>79.7</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">74</volume>
+					<arm>75</arm>
+				</tank>
+				<tank name="Tip Tank" fueltype="1">
+					<volume unit="0">40</volume>
+					<arm>89.5</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">86</arm>
+				<arm name="Front Right Seat">86</arm>
+				<arm name="Rear Seats">124</arm>
+				<arm name="Baggage">140</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2300</weight>
+						<arm>76.2</arm>
+					</point>
+					<point>
+						<weight>2700</weight>
+						<arm>75</arm>
+					</point>
+					<point>
+						<weight>3600</weight>
+						<arm>83</arm>
+					</point>
+					<point>
+						<weight>3600</weight>
+						<arm>86.7</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>86.7</arm>
+					</point>
+				</range>
+				<range name="Utility">
+					<point>
+						<weight>2300</weight>
+						<arm>78.5</arm>
+					</point>
+					<point>
+						<weight>2800</weight>
+						<arm>78.5</arm>
+					</point>
+					<point>
+						<weight>2800</weight>
+						<arm>81</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>81</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="Beechcraft F33A" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>136</va>
+			<wmax>3600</wmax>
+			<weight>2380</weight>
+			<arm>81.63</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">74</volume>
+					<arm>75</arm>
+				</tank>
+				<tank name="Tip Tank" fueltype="1">
+					<volume unit="0">40</volume>
+					<arm>89.5</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">86</arm>
+				<arm name="Front Right Seat">86</arm>
+				<arm name="Rear Seats">124</arm>
+				<arm name="Baggage">140</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2300</weight>
+						<arm>76.2</arm>
+					</point>
+					<point>
+						<weight>2700</weight>
+						<arm>75</arm>
+					</point>
+					<point>
+						<weight>3600</weight>
+						<arm>83</arm>
+					</point>
+					<point>
+						<weight>3600</weight>
+						<arm>86.7</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>86.7</arm>
+					</point>
+				</range>
+				<range name="Utility">
+					<point>
+						<weight>2300</weight>
+						<arm>78.5</arm>
+					</point>
+					<point>
+						<weight>2800</weight>
+						<arm>78.5</arm>
+					</point>
+					<point>
+						<weight>2800</weight>
+						<arm>81</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>81</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="Beechcraft V35B" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>134</va>
+			<wmax>3400</wmax>
+			<weight>2295</weight>
+			<arm>78.5</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">74</volume>
+					<arm>75</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">85</arm>
+				<arm name="Front Right Seat">85</arm>
+				<arm name="Rear Seats">121</arm>
+				<arm name="Baggage">150</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2200</weight>
+						<arm>77</arm>
+					</point>
+					<point>
+						<weight>2900</weight>
+						<arm>77</arm>
+					</point>
+					<point>
+						<weight>3400</weight>
+						<arm>82.1</arm>
+					</point>
+					<point>
+						<weight>3400</weight>
+						<arm>84.4</arm>
+					</point>
+					<point>
+						<weight>3000</weight>
+						<arm>85.7</arm>
+					</point>
+					<point>
+						<weight>2200</weight>
+						<arm>85.7</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+	</group>
+	
+	<group name="Cessna">
+		<!-- cessna 152 -->
+		<aircraft name="C152" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>104</va>
+			<wmax>1670</wmax>
+			<weight>1150</weight>
+			<arm>30</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">24.5</volume>
+					<arm>42.2</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">39</arm>
+				<arm name="Front Right Seat">39</arm>
+				<arm name="Baggage Area 1">64</arm>
+				<arm name="Baggage Area 2">84</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1000</weight>
+						<arm>31</arm>
+					</point>
+					<point>
+						<weight>1350</weight>
+						<arm>31</arm>
+					</point>
+					<point>
+						<weight>1670</weight>
+						<arm>32.65</arm>
+					</point>
+					<point>
+						<weight>1670</weight>
+						<arm>36.5</arm>
+					</point>
+					<point>
+						<weight>1000</weight>
+						<arm>36.5</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		
+		<!-- Cessna 162 -->
+		<aircraft name="C162" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>100</va>
+			<wmax>1320</wmax>
+			<weight>894</weight>
+			<arm>132</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">24</volume>
+					<arm>143</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">142</arm>
+				<arm name="Front Right Seat">142</arm>
+				<arm name="Baggage Area">172</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>800</weight>
+						<arm>132.05</arm>
+					</point>
+					<point>
+						<weight>1050</weight>
+						<arm>132.05</arm>
+					</point>
+					<point>
+						<weight>1320</weight>
+						<arm>134.45</arm>
+					</point>
+					<point>
+						<weight>1320</weight>
+						<arm>136.85</arm>
+					</point>
+					<point>
+						<weight>800</weight>
+						<arm>136.85</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		
+		<!-- Cessna 172 -->
+		<aircraft name="C172B" wunit="0" aunit="0" munit="0" sunit="1">
+			<va>115</va>
+			<wmax>2200</wmax>
+			<weight>1350</weight>
+			<arm>39.4</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">37</volume>
+					<arm>47.7</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">35.9</arm>
+				<arm name="Front Right Seat">35.9</arm>
+				<arm name="Rear Seats">70</arm>
+				<arm name="Baggage Area 1">95</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1300</weight>
+						<arm>36.4</arm>
+					</point>
+					<point>
+						<weight>1733</weight>
+						<arm>36.4</arm>
+					</point>
+					<point>
+						<weight>1900</weight>
+						<arm>38</arm>
+					</point>
+					<point>
+						<weight>1900</weight>
+						<arm>40.3</arm>
+					</point>
+					<point>
+						<weight>1300</weight>
+						<arm>40.3</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1300</weight>
+						<arm>36.4</arm>
+					</point>
+					<point>
+						<weight>1733</weight>
+						<arm>36.4</arm>
+					</point>
+					<point>
+						<weight>2200</weight>
+						<arm>40.8</arm>
+					</point>
+					<point>
+						<weight>2200</weight>
+						<arm>46.4</arm>
+					</point>
+					<point>
+						<weight>1300</weight>
+						<arm>46.4</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="C172H" wunit="0" aunit="0" munit="0" sunit="1">
+			<va>122</va>
+			<wmax>2300</wmax>
+			<weight>1420</weight>
+			<arm>37.1</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">38</volume>
+					<arm>48</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">36</arm>
+				<arm name="Front Right Seat">36</arm>
+				<arm name="Rear Seats">70</arm>
+				<arm name="Baggage Area 1">95</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>35.5</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>40.5</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>40.5</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>38.5</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>47.3</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>47.3</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="C172L" wunit="0" aunit="0" munit="0" sunit="1">
+			<va>109</va>
+			<wmax>2300</wmax>
+			<weight>1475</weight>
+			<arm>39.8</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">38</volume>
+					<arm>48</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">37</arm>
+				<arm name="Front Right Seat">37</arm>
+				<arm name="Rear Seats">73</arm>
+				<arm name="Baggage Area">95</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>35.5</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>40.5</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>40.5</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>38.5</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>47.3</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>47.3</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="C172M" wunit="0" aunit="0" munit="0" sunit="1">
+			<va>96</va>
+			<wmax>2300</wmax>
+			<weight>1475</weight>
+			<arm>39.6</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">38</volume>
+					<arm>48</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">37</arm>
+				<arm name="Front Right Seat">37</arm>
+				<arm name="Rear Seats">73</arm>
+				<arm name="Baggage Area 1">95</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>35.5</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>40.5</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>40.5</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>38.5</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>47.3</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>47.3</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="C172N" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>96</va>
+			<wmax>2300</wmax>
+			<weight>1480</weight>
+			<arm>39.1</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">40</volume>
+					<arm>47.9</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">37</arm>
+				<arm name="Front Right Seat">37</arm>
+				<arm name="Rear Seats">73</arm>
+				<arm name="Baggage Area 1">95</arm>
+				<arm name="Baggage Area 2">123</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>35.5</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>40.5</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>40.5</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>38.5</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>47.3</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>47.3</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="C172P" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>99</va>
+			<wmax>2300</wmax>
+			<weight>1480</weight>
+			<arm>38.9</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">40</volume>
+					<arm>48</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">37</arm>
+				<arm name="Front Right Seat">37</arm>
+				<arm name="Rear Seats">73</arm>
+				<arm name="Baggage Area">123</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>35.5</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>40.5</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>40.5</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1400</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>38.5</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>47.3</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>47.3</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="C172R" wunit="0" aunit="0" munit="0" sunit="0" >
+			<va>99</va>
+			<wmax>2450</wmax>
+			<weight>1640</weight>
+			<arm>39.3</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">56</volume>
+					<arm>48</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">37</arm>
+				<arm name="Front Right Seat">37</arm>
+				<arm name="Rear Seats">73</arm>
+				<arm name="Baggage Area 1">95</arm>
+				<arm name="Baggage Area 2">123</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1500</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2100</weight>
+						<arm>36.5</arm>
+					</point>
+					<point>
+						<weight>2100</weight>
+						<arm>40.5</arm>
+					</point>
+					<point>
+						<weight>1500</weight>
+						<arm>40.5</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1500</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2450</weight>
+						<arm>40</arm>
+					</point>
+					<point>
+						<weight>2450</weight>
+						<arm>47.3</arm>
+					</point>
+					<point>
+						<weight>1500</weight>
+						<arm>47.3</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="C172S" wunit="0" aunit="0" munit="0" sunit="0" >
+			<va>102</va>
+			<wmax>2550</wmax>
+			<weight>1670</weight>
+			<arm>40</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">56</volume>
+					<arm>48</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">37</arm>
+				<arm name="Front Right Seat">37</arm>
+				<arm name="Rear Seats">73</arm>
+				<arm name="Baggage Area 1">95</arm>
+				<arm name="Baggage Area 2">123</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1500</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2200</weight>
+						<arm>37.5</arm>
+					</point>
+					<point>
+						<weight>2200</weight>
+						<arm>40.5</arm>
+					</point>
+					<point>
+						<weight>1500</weight>
+						<arm>40.5</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1500</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2550</weight>
+						<arm>41</arm>
+					</point>
+					<point>
+						<weight>2550</weight>
+						<arm>47.3</arm>
+					</point>
+					<point>
+						<weight>1500</weight>
+						<arm>47.3</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<!-- Cessna 177 -->
+		<aircraft name="C177B" wunit="0" aunit="0" munit="0" sunit="0" >
+			<va>101</va>
+			<wmax>2500</wmax>
+			<weight>1625</weight>
+			<arm>103.4</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">60</volume>
+					<arm>112</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">93</arm>
+				<arm name="Front Right Seat">93</arm>
+				<arm name="Rear Seats">134</arm>
+				<arm name="Baggage Area">162</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1600</weight>
+						<arm>101</arm>
+					</point>
+					<point>
+						<weight>2000</weight>
+						<arm>101</arm>
+					</point>
+					<point>
+						<weight>2250</weight>
+						<arm>102.2</arm>
+					</point>
+					<point>
+						<weight>2500</weight>
+						<arm>106.7</arm>
+					</point>
+					<point>
+						<weight>2500</weight>
+						<arm>114.5</arm>
+					</point>
+					<point>
+						<weight>1600</weight>
+						<arm>114.5</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<!-- Cessna 180 -->
+		<aircraft name="C180" wunit="0" aunit="0" munit="0" sunit="0" >
+			<va>106</va>
+			<wmax>2550</wmax>
+			<weight>1760</weight>
+			<arm>40</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">55</volume>
+					<arm>48</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">36</arm>
+				<arm name="Front Right Seat">36</arm>
+				<arm name="Rear Seats">48</arm>
+				<arm name="Baggage Area">95</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1600</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2050</weight>
+						<arm>35</arm>
+					</point>
+					<point>
+						<weight>2550</weight>
+						<arm>39.5</arm>
+					</point>
+					<point>
+						<weight>2550</weight>
+						<arm>45.8</arm>
+					</point>
+					<point>
+						<weight>1600</weight>
+						<arm>45.8</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<!-- Cessna 182 -->
+		<aircraft name="C182R" wunit="0" aunit="0" munit="0" sunit="0" >
+			<va>111</va>
+			<wmax>3100</wmax>
+			<weight>1880</weight>
+			<arm>37.2</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">88</volume>
+					<arm>46.5</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">37</arm>
+				<arm name="Front Right Seat">37</arm>
+				<arm name="Rear Seats">74</arm>
+				<arm name="Baggage Area 1">100</arm>
+				<arm name="Baggage Area 2">122</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1700</weight>
+						<arm>33</arm>
+					</point>
+					<point>
+						<weight>2250</weight>
+						<arm>33</arm>
+					</point>
+					<point>
+						<weight>3100</weight>
+						<arm>41</arm>
+					</point>
+					<point>
+						<weight>3100</weight>
+						<arm>46</arm>
+					</point>
+					<point>
+						<weight>1700</weight>
+						<arm>46</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<!-- Cessna 185 -->
+		<aircraft name="C185D" wunit="0" aunit="0" munit="0" sunit="0" >
+			<va>118</va>
+			<wmax>3200</wmax>
+			<weight>1740</weight>
+			<arm>36.5</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">81</volume>
+					<arm>48</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">36</arm>
+				<arm name="Front Right Seat">36</arm>
+				<arm name="Middle Seats">63</arm>
+				<arm name="Rear Seats">94</arm>
+				<arm name="Baggage Area">115</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1600</weight>
+						<arm>34.5</arm>
+					</point>
+					<point>
+						<weight>2100</weight>
+						<arm>34.5</arm>
+					</point>
+					<point>
+						<weight>3200</weight>
+						<arm>41</arm>
+					</point>
+					<point>
+						<weight>3200</weight>
+						<arm>46.5</arm>
+					</point>
+					<point>
+						<weight>1600</weight>
+						<arm>46.5</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<!-- Cessna 206 -->
+		<aircraft name="C206H" wunit="0" aunit="0" munit="0" sunit="0" >
+			<va>123</va>
+			<wmax>3600</wmax>
+			<weight>2220</weight>
+			<arm>40.75</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">92</volume>
+					<arm>46.5</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">37</arm>
+				<arm name="Front Right Seat">37</arm>
+				<arm name="Cemter Seats">70</arm>
+				<arm name="Rear Seats">100</arm>
+				<arm name="Baggage Area">127</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2200</weight>
+						<arm>33</arm>
+					</point>
+					<point>
+						<weight>2550</weight>
+						<arm>33</arm>
+					</point>
+					<point>
+						<weight>3600</weight>
+						<arm>42.2</arm>
+					</point>
+					<point>
+						<weight>3600</weight>
+						<arm>47.3</arm>
+					</point>
+					<point>
+						<weight>3600</weight>
+						<arm>49.7</arm>
+					</point>
+					<point>
+						<weight>2200</weight>
+						<arm>49.7</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<!-- Cessna 210 -->
+		<aircraft name="C210M Turbo" wunit="0" aunit="0" munit="0" sunit="0" >
+			<va>119</va>
+			<wmax>3800</wmax>
+			<weight>2340</weight>
+			<arm>42.7</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">89</volume>
+					<arm>43</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">37</arm>
+				<arm name="Front Right Seat">37</arm>
+				<arm name="Middle Seats">69</arm>
+				<arm name="Rear Seats">101</arm>
+				<arm name="Baggage Area">138</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2200</weight>
+						<arm>37</arm>
+					</point>
+					<point>
+						<weight>3000</weight>
+						<arm>37</arm>
+					</point>
+					<point>
+						<weight>3800</weight>
+						<arm>42.5</arm>
+					</point>
+					<point>
+						<weight>3800</weight>
+						<arm>53</arm>
+					</point>
+					<point>
+						<weight>2200</weight>
+						<arm>53</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<!-- Cessna 421 -->
+		<aircraft name="C421" wunit="0" aunit="0" munit="0" sunit="0" >
+			<va>160</va>
+			<wmax>6800</wmax>
+			<weight>4300</weight>
+			<arm>147.5</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">100</volume>
+					<arm>152</arm>
+				</tank>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">70</volume>
+					<arm>164</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">137</arm>
+				<arm name="Front Right Seat">137</arm>
+				<arm name="Middle Seats">175</arm>
+				<arm name="Rear Seats">215</arm>
+				<arm name="Baggage Area 1">71</arm>
+				<arm name="Baggage Area 2">186</arm>
+				<arm name="Baggage Area 3">250</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>4000</weight>
+						<arm>144.3</arm>
+					</point>
+					<point>
+						<weight>5200</weight>
+						<arm>144.3</arm>
+					</point>
+					<point>
+						<weight>6800</weight>
+						<arm>151.9</arm>
+					</point>
+					<point>
+						<weight>6800</weight>
+						<arm>155.5</arm>
+					</point>
+					<point>
+						<weight>6400</weight>
+						<arm>155.7</arm>
+					</point>
+					<point>
+						<weight>4000</weight>
+						<arm>155.7</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+	</group>
+	
+	<group name="Cirrus">
+		<aircraft name="SR20" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>131</va>
+			<wmax>3000</wmax>
+			<weight>2150</weight>
+			<arm>141.7</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">56</volume>
+					<arm>153.8</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">144</arm>
+				<arm name="Front Right Seat">144</arm>
+				<arm name="Rear Seats">180</arm>
+				<arm name="Baggage Area 1">208</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2110</weight>
+						<arm>138.7</arm>
+					</point>
+					<point>
+						<weight>2694</weight>
+						<arm>141.0</arm>
+					</point>
+					<point>
+						<weight>3000</weight>
+						<arm>144.1</arm>
+					</point>
+					<point>
+						<weight>3000</weight>
+						<arm>148.0</arm>
+					</point>
+					<point>
+						<weight>2900</weight>
+						<arm>148.1</arm>
+					</point>
+					<point>
+						<weight>2570</weight>
+						<arm>147.4</arm>
+					</point>
+					<point>
+						<weight>2110</weight>
+						<arm>144.6</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="SR20 G3" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>130</va>
+			<wmax>3050</wmax>
+			<weight>2050</weight>
+			<arm>139.7</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">56</volume>
+					<arm>153.8</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">144</arm>
+				<arm name="Front Right Seat">144</arm>
+				<arm name="Rear Seats">180</arm>
+				<arm name="Baggage Area 1">208</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2100</weight>
+						<arm>137.8</arm>
+					</point>
+					<point>
+						<weight>2700</weight>
+						<arm>139.1</arm>
+					</point>
+					<point>
+						<weight>3050</weight>
+						<arm>140.7</arm>
+					</point>
+					<point>
+						<weight>3050</weight>
+						<arm>148.1</arm>
+					</point>
+					<point>
+						<weight>2100</weight>
+						<arm>148.1</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="SR22" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>133</va>
+			<wmax>3400</wmax>
+			<weight>2310</weight>
+			<arm>140.2</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">81</volume>
+					<arm>154.9</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">144</arm>
+				<arm name="Front Right Seat">144</arm>
+				<arm name="Rear Seats">180</arm>
+				<arm name="Baggage Area 1">208</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2100</weight>
+						<arm>137.8</arm>
+					</point>
+					<point>
+						<weight>2700</weight>
+						<arm>139.1</arm>
+					</point>
+					<point>
+						<weight>3210</weight>
+						<arm>141.4</arm>
+					</point>
+					<point>
+						<weight>3400</weight>
+						<arm>142.3</arm>
+					</point>
+					<point>
+						<weight>3400</weight>
+						<arm>148.1</arm>
+					</point>
+					<point>
+						<weight>2100</weight>
+						<arm>148.1</arm>
+					</point>
+				</range>
+				<range name="Landing">
+					<point>
+						<weight>3210</weight>
+						<arm>141.4</arm>
+					</point>
+					<point>
+						<weight>3400</weight>
+						<arm>142.3</arm>
+					</point>
+					<point>
+						<weight>3400</weight>
+						<arm>142.7</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="SR22 G3" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>133</va>
+			<wmax>3400</wmax>
+			<weight>2250</weight>
+			<arm>139.2</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">92</volume>
+					<arm>154.9</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">144</arm>
+				<arm name="Front Right Seat">144</arm>
+				<arm name="Rear Seats">180</arm>
+				<arm name="Baggage Area 1">208</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2100</weight>
+						<arm>137.8</arm>
+					</point>
+					<point>
+						<weight>2700</weight>
+						<arm>139.1</arm>
+					</point>
+					<point>
+						<weight>3210</weight>
+						<arm>141.4</arm>
+					</point>
+					<point>
+						<weight>3400</weight>
+						<arm>142.3</arm>
+					</point>
+					<point>
+						<weight>3400</weight>
+						<arm>148.1</arm>
+					</point>
+					<point>
+						<weight>2100</weight>
+						<arm>148.1</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+	</group>
+	
+	<group name="Mooney">
+		<aircraft name="M20B" wunit="0" aunit="0" munit="0" sunit="1">
+			<va>127</va>
+			<wmax>2450</wmax>
+			<weight>1600</weight>
+			<arm>44.8</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">48</volume>
+					<arm>48.4</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">44</arm>
+				<arm name="Front Right Seat">44</arm>
+				<arm name="Rear Seats">70</arm>
+				<arm name="Baggage 1">96</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1775</weight>
+						<arm>42</arm>
+					</point>
+					<point>
+						<weight>2040</weight>
+						<arm>42</arm>
+					</point>
+					<point>
+						<weight>2450</weight>
+						<arm>47</arm>
+					</point>
+					<point>
+						<weight>2450</weight>
+						<arm>50</arm>
+					</point>
+					<point>
+						<weight>1775</weight>
+						<arm>50</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		
+		<aircraft name="M20C" wunit="0" aunit="0" munit="0" sunit="1">
+			<va>132</va>
+			<wmax>2575</wmax>
+			<weight>1600</weight>
+			<arm>44.5</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">48</volume>
+					<arm>48.4</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">44</arm>
+				<arm name="Front Right Seat">44</arm>
+				<arm name="Rear Seats">70</arm>
+				<arm name="Baggage 1">96</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1775</weight>
+						<arm>42</arm>
+					</point>
+					<point>
+						<weight>2100</weight>
+						<arm>42</arm>
+					</point>
+					<point>
+						<weight>2575</weight>
+						<arm>46.5</arm>
+					</point>
+					<point>
+						<weight>2575</weight>
+						<arm>49</arm>
+					</point>
+					<point>
+						<weight>1775</weight>
+						<arm>49</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		
+		<aircraft name="M20E" wunit="0" aunit="0" munit="0" sunit="1">
+			<va>132</va>
+			<wmax>2575</wmax>
+			<weight>1600</weight>
+			<arm>44.5</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">48</volume>
+					<arm>48.4</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">44</arm>
+				<arm name="Front Right Seat">44</arm>
+				<arm name="Rear Seats">70</arm>
+				<arm name="Baggage 1">96</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1800</weight>
+						<arm>42</arm>
+					</point>
+					<point>
+						<weight>2100</weight>
+						<arm>42</arm>
+					</point>
+					<point>
+						<weight>2575</weight>
+						<arm>46.5</arm>
+					</point>
+					<point>
+						<weight>2575</weight>
+						<arm>49</arm>
+					</point>
+					<point>
+						<weight>1800</weight>
+						<arm>49</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		
+		<aircraft name="M20J" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>118</va>
+			<wmax>2470</wmax>
+			<weight>1975</weight>
+			<arm>47.1</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">64</volume>
+					<arm>48.4</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">36</arm>
+				<arm name="Front Right Seat">36</arm>
+				<arm name="Rear Seats">70</arm>
+				<arm name="Baggage 1">96</arm>
+				<arm name="Baggage 2">119</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1800</weight>
+						<arm>41</arm>
+					</point>
+					<point>
+						<weight>2250</weight>
+						<arm>41</arm>
+					</point>
+					<point>
+						<weight>2470</weight>
+						<arm>41.8</arm>
+					</point>
+					<point>
+						<weight>2740</weight>
+						<arm>43.8</arm>
+					</point>
+					<point>
+						<weight>2740</weight>
+						<arm>50.1</arm>
+					</point>
+					<point>
+						<weight>1800</weight>
+						<arm>50.1</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		
+		<aircraft name="M20J (2900lb)" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>118</va>
+			<wmax>2470</wmax>
+			<weight>1975</weight>
+			<arm>47.1</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">64</volume>
+					<arm>48.4</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">36</arm>
+				<arm name="Front Right Seat">36</arm>
+				<arm name="Rear Seats">70</arm>
+				<arm name="Baggage 1">96</arm>
+				<arm name="Baggage 2">119</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1800</weight>
+						<arm>41</arm>
+					</point>
+					<point>
+						<weight>2250</weight>
+						<arm>41</arm>
+					</point>
+					<point>
+						<weight>2470</weight>
+						<arm>41.8</arm>
+					</point>
+					<point>
+						<weight>2900</weight>
+						<arm>45</arm>
+					</point>
+					<point>
+						<weight>2900</weight>
+						<arm>50.1</arm>
+					</point>
+					<point>
+						<weight>1800</weight>
+						<arm>50.1</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+	</group>
+
+	<group name="Piper">
+		<aircraft name="PA-28-140 Cruiser" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>112</va>
+			<wmax>2150</wmax>
+			<weight>1395</weight>
+			<arm>85.7</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">50</volume>
+					<arm>95</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">85.5</arm>
+				<arm name="Front Right Seat">85.5</arm>
+				<arm name="Rear Seats">117</arm>
+				<arm name="Baggage">117</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1300</weight>
+						<arm>84</arm>
+					</point>
+					<point>
+						<weight>1650</weight>
+						<arm>84</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>85.8</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>86.5</arm>
+					</point>
+					<point>
+						<weight>1300</weight>
+						<arm>86.5</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1300</weight>
+						<arm>84</arm>
+					</point>
+					<point>
+						<weight>1650</weight>
+						<arm>84</arm>
+					</point>
+					<point>
+						<weight>1970</weight>
+						<arm>85.9</arm>
+					</point>
+					<point>
+						<weight>2150</weight>
+						<arm>88.4</arm>
+					</point>
+					<point>
+						<weight>2150</weight>
+						<arm>95.9</arm>
+					</point>
+					<point>
+						<weight>1300</weight>
+						<arm>95.9</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="PA-28-180 Archer" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>110</va>
+			<wmax>2450</wmax>
+			<weight>1515</weight>
+			<arm>86.7</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">50</volume>
+					<arm>95</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">80.5</arm>
+				<arm name="Front Right Seat">80.5</arm>
+				<arm name="Rear Seats">118</arm>
+				<arm name="Baggage">142</arm>
+			</station>
+			<data>
+				<range name="Utility">
+					<point>
+						<weight>1400</weight>
+						<arm>82</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>82</arm>
+					</point>
+					<point>
+						<weight>1950</weight>
+						<arm>86.5</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>86.5</arm>
+					</point>
+				</range>
+				<range name="Normal">
+					<point>
+						<weight>1400</weight>
+						<arm>82</arm>
+					</point>
+					<point>
+						<weight>2050</weight>
+						<arm>82</arm>
+					</point>
+					<point>
+						<weight>2450</weight>
+						<arm>87.4</arm>
+					</point>
+					<point>
+						<weight>2450</weight>
+						<arm>93</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>93</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="PA-28R-180 Arrow" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>134</va>
+			<wmax>2500</wmax>
+			<weight>1560</weight>
+			<arm>85.5</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">48</volume>
+					<arm>95</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">85.5</arm>
+				<arm name="Front Right Seat">85.5</arm>
+				<arm name="Rear Seats">118</arm>
+				<arm name="Baggage">142</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1400</weight>
+						<arm>81</arm>
+					</point>
+					<point>
+						<weight>1925</weight>
+						<arm>81</arm>
+					</point>
+					<point>
+						<weight>2500</weight>
+						<arm>91</arm>
+					</point>
+					<point>
+						<weight>2500</weight>
+						<arm>95.9</arm>
+					</point>
+					<point>
+						<weight>1400</weight>
+						<arm>95.9</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="PA-28R-200 Arrow II" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>131</va>
+			<wmax>2650</wmax>
+			<weight>1675</weight>
+			<arm>83.9</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">50</volume>
+					<arm>95</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">85.5</arm>
+				<arm name="Front Right Seat">85.5</arm>
+				<arm name="Rear Seats">118</arm>
+				<arm name="Baggage">143</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1500</weight>
+						<arm>80</arm>
+					</point>
+					<point>
+						<weight>1800</weight>
+						<arm>80</arm>
+					</point>
+					<point>
+						<weight>2300</weight>
+						<arm>82</arm>
+					</point>
+					<point>
+						<weight>2650</weight>
+						<arm>87.3</arm>
+					</point>
+					<point>
+						<weight>2650</weight>
+						<arm>93</arm>
+					</point>
+					<point>
+						<weight>1500</weight>
+						<arm>93</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+		<aircraft name="PA-46-310P" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>135</va>
+			<wmax>4100</wmax>
+			<weight>2815</weight>
+			<arm>134.1</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">90</volume>
+					<arm>151.3</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">135.5</arm>
+				<arm name="Front Right Seat">135.5</arm>
+				<arm name="Middle Seats">177</arm>
+				<arm name="Rear Seats">219</arm>
+				<arm name="Baggage">249</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>2200</weight>
+						<arm>130.7</arm>
+					</point>
+					<point>
+						<weight>2450</weight>
+						<arm>130.7</arm>
+					</point>
+					<point>
+						<weight>3680</weight>
+						<arm>136.1</arm>
+					</point>
+					<point>
+						<weight>4100</weight>
+						<arm>143.3</arm>
+					</point>
+					<point>
+						<weight>4100</weight>
+						<arm>147.1</arm>
+					</point>
+					<point>
+						<weight>2200</weight>
+						<arm>147.1</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+	</group>
+	
+	<group name="Socata">
+		<aircraft name="TB200 Tobago" wunit="0" aunit="0" munit="0" sunit="0">
+			<va>122</va>
+			<wmax>2535</wmax>
+			<weight>1642</weight>
+			<arm>39</arm>
+			<fuel>
+				<tank name="Fuel Tank" fueltype="1">
+					<volume unit="0">53.8</volume>
+					<arm>42.3</arm>
+				</tank>
+			</fuel>
+			<station>
+				<arm name="Pilot Seat">45.9</arm>
+				<arm name="Front Right Seat">45.9</arm>
+				<arm name="Rear Seats">82.4</arm>
+				<arm name="Baggage 1">102.3</arm>
+			</station>
+			<data>
+				<range name="Normal">
+					<point>
+						<weight>1600</weight>
+						<arm>37.3</arm>
+					</point>
+					<point>
+						<weight>2138</weight>
+						<arm>37.3</arm>
+					</point>
+					<point>
+						<weight>2359</weight>
+						<arm>39.8</arm>
+					</point>
+					<point>
+						<weight>2535</weight>
+						<arm>42.6</arm>
+					</point>
+					<point>
+						<weight>2535</weight>
+						<arm>47.4</arm>
+					</point>
+					<point>
+						<weight>1600</weight>
+						<arm>47.4</arm>
+					</point>
+				</range>
+			</data>
+		</aircraft>
+	</group>
+
+</wb>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3545295C-DE4D-4D67-B971-38ECE19CCE7C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>E6B</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626</key>
+		<string>https://glenview.svn.beanstalkapp.com/projects/iphone/trunk/E6B</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>v2/E6B.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626</key>
+		<string>https://glenview.svn.beanstalkapp.com/projects</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://glenview.svn.beanstalkapp.com/projects/iphone/trunk/E6B/v2/E6B.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626</string>
+			<key>IDESourceControlWCCName</key>
+			<string>E6B</string>
+		</dict>
+	</array>
+</dict>
+</plist>

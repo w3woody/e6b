@@ -1,0 +1,1215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF08B0C41A27CE46007EAEE3 /* CMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF08B0C31A27CE46007EAEE3 /* CMMenuView.m */; };
+		EF08B0C71A28C004007EAEE3 /* CMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EF08B0C61A28C004007EAEE3 /* CMTextField.m */; };
+		EF08B0CA1A28D261007EAEE3 /* CMAircraftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF08B0C91A28D261007EAEE3 /* CMAircraftTableViewController.m */; };
+		EF08B0D01A28F582007EAEE3 /* CMAircraftDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF08B0CF1A28F582007EAEE3 /* CMAircraftDatabase.m */; };
+		EF08B0D21A28F634007EAEE3 /* aircraft.xml in Resources */ = {isa = PBXBuildFile; fileRef = EF08B0D11A28F634007EAEE3 /* aircraft.xml */; };
+		EF09A14A1A3FC3470020E67A /* CMTablePage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09A1491A3FC3470020E67A /* CMTablePage.m */; };
+		EF09A14F1A405F370020E67A /* CMTableGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09A14E1A405F370020E67A /* CMTableGroup.m */; };
+		EF09A1521A40626A0020E67A /* CMTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09A1511A40626A0020E67A /* CMTableItem.m */; };
+		EF09A1551A4067A60020E67A /* CMTableEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09A1541A4067A60020E67A /* CMTableEditorViewController.m */; };
+		EF09A1591A40DC3E0020E67A /* CMAircraftClassPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09A1581A40DC3E0020E67A /* CMAircraftClassPage.m */; };
+		EF09A15C1A40DCE10020E67A /* CMAircraftFuelPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09A15B1A40DCE10020E67A /* CMAircraftFuelPage.m */; };
+		EF09A15F1A40DCF30020E67A /* CMAircraftStationPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09A15E1A40DCF30020E67A /* CMAircraftStationPage.m */; };
+		EF09A1621A40DD020020E67A /* CMAircraftWBDataPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09A1611A40DD020020E67A /* CMAircraftWBDataPage.m */; };
+		EF09A1651A40DD0F0020E67A /* CMAircraftWBPointPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09A1641A40DD0F0020E67A /* CMAircraftWBPointPage.m */; };
+		EF20FEED1A0E95A500DB0702 /* CMWBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20FEEC1A0E95A500DB0702 /* CMWBViewController.m */; };
+		EF20FEF01A0EB8BA00DB0702 /* Angle.c in Sources */ = {isa = PBXBuildFile; fileRef = EF20FEEE1A0EB8BA00DB0702 /* Angle.c */; };
+		EF20FEF11A0EB8BA00DB0702 /* CMComplexHull.c in Sources */ = {isa = PBXBuildFile; fileRef = EF20FEEF1A0EB8BA00DB0702 /* CMComplexHull.c */; };
+		EF20FEF51A0EBC6500DB0702 /* CMWBCalculationStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20FEF41A0EBC6500DB0702 /* CMWBCalculationStore.m */; };
+		EF20FEF81A0EBD0A00DB0702 /* CMWBCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20FEF71A0EBD0A00DB0702 /* CMWBCalculation.m */; };
+		EF25EDC31A12ED9A006D9D32 /* CMWBGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = EF25EDC21A12ED9A006D9D32 /* CMWBGraph.m */; };
+		EF94229E19DED41F0075B6DC /* CMOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF94229D19DED41F0075B6DC /* CMOutputView.m */; };
+		EFA2D11619D879D0008DD44F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D11519D879D0008DD44F /* main.m */; };
+		EFA2D11919D879D0008DD44F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D11819D879D0008DD44F /* AppDelegate.m */; };
+		EFA2D11C19D879D0008DD44F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D11B19D879D0008DD44F /* MasterViewController.m */; };
+		EFA2D11F19D879D0008DD44F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D11E19D879D0008DD44F /* DetailViewController.m */; };
+		EFA2D12219D879D0008DD44F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA2D12019D879D0008DD44F /* Main.storyboard */; };
+		EFA2D12419D879D0008DD44F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA2D12319D879D0008DD44F /* Images.xcassets */; };
+		EFA2D12719D879D0008DD44F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA2D12519D879D0008DD44F /* LaunchScreen.xib */; };
+		EFA2D13319D879D0008DD44F /* E6BTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D13219D879D0008DD44F /* E6BTests.m */; };
+		EFA2D14119D88755008DD44F /* CMCalcKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D14019D88755008DD44F /* CMCalcKeyboardView.m */; };
+		EFA2D14519D88AE5008DD44F /* CMCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D14419D88AE5008DD44F /* CMCalculator.m */; };
+		EFA2D14819D892AC008DD44F /* CMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D14719D892AC008DD44F /* CMInputView.m */; };
+		EFA2D14B19D896EB008DD44F /* CMCalcKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D14A19D896EB008DD44F /* CMCalcKeyboard.m */; };
+		EFA2D14E19D8B9D3008DD44F /* CMMutableString.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2D14D19D8B9D3008DD44F /* CMMutableString.m */; };
+		EFBE54451A091FAF00EA94F3 /* CMValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54441A091FAF00EA94F3 /* CMValue.m */; };
+		EFBE545C1A091FD400EA94F3 /* CMDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54471A091FD400EA94F3 /* CMDistance.m */; };
+		EFBE545D1A091FD400EA94F3 /* CMLength.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54491A091FD400EA94F3 /* CMLength.m */; };
+		EFBE545E1A091FD400EA94F3 /* CMMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE544C1A091FD400EA94F3 /* CMMoment.m */; };
+		EFBE545F1A091FD400EA94F3 /* CMPressure.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE544E1A091FD400EA94F3 /* CMPressure.m */; };
+		EFBE54601A091FD400EA94F3 /* CMSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54501A091FD400EA94F3 /* CMSpeed.m */; };
+		EFBE54611A091FD400EA94F3 /* CMTemperature.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54521A091FD400EA94F3 /* CMTemperature.m */; };
+		EFBE54621A091FD400EA94F3 /* CMTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54541A091FD400EA94F3 /* CMTime.m */; };
+		EFBE54631A091FD400EA94F3 /* CMVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54561A091FD400EA94F3 /* CMVolume.m */; };
+		EFBE54641A091FD400EA94F3 /* CMVolumeBurn.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54581A091FD400EA94F3 /* CMVolumeBurn.m */; };
+		EFBE54651A091FD400EA94F3 /* CMWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE545A1A091FD400EA94F3 /* CMWeight.m */; };
+		EFBE54661A091FD400EA94F3 /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE545B1A091FD400EA94F3 /* Measurement.m */; };
+		EFBE54A11A091FE000EA94F3 /* CMCloudBaseCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54691A091FE000EA94F3 /* CMCloudBaseCalculator.m */; };
+		EFBE54A31A091FE000EA94F3 /* CMCrossWind.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE546C1A091FE000EA94F3 /* CMCrossWind.m */; };
+		EFBE54A41A091FE000EA94F3 /* CMDistanceTraveled.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE546E1A091FE000EA94F3 /* CMDistanceTraveled.m */; };
+		EFBE54A51A091FE000EA94F3 /* CME6BCalculationStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54711A091FE000EA94F3 /* CME6BCalculationStore.m */; };
+		EFBE54A61A091FE000EA94F3 /* CME6BDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54731A091FE000EA94F3 /* CME6BDataStore.m */; };
+		EFBE54A71A091FE000EA94F3 /* CMFindHeadingCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54751A091FE000EA94F3 /* CMFindHeadingCalculation.m */; };
+		EFBE54A81A091FE000EA94F3 /* CMFuelBurnRate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54771A091FE000EA94F3 /* CMFuelBurnRate.m */; };
+		EFBE54A91A091FE000EA94F3 /* CMFuelEndurance.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54791A091FE000EA94F3 /* CMFuelEndurance.m */; };
+		EFBE54AA1A091FE000EA94F3 /* CMFuelForWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE547B1A091FE000EA94F3 /* CMFuelForWeight.m */; };
+		EFBE54AB1A091FE000EA94F3 /* CMFuelRequired.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE547D1A091FE000EA94F3 /* CMFuelRequired.m */; };
+		EFBE54AC1A091FE000EA94F3 /* CMFuelWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE547F1A091FE000EA94F3 /* CMFuelWeight.m */; };
+		EFBE54AD1A091FE000EA94F3 /* CMHeadingCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54811A091FE000EA94F3 /* CMHeadingCalculation.m */; };
+		EFBE54AE1A091FE000EA94F3 /* CMLegTimeCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54831A091FE000EA94F3 /* CMLegTimeCalculator.m */; };
+		EFBE54AF1A091FE000EA94F3 /* CMMagneticHeadingCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54851A091FE000EA94F3 /* CMMagneticHeadingCalculation.m */; };
+		EFBE54B01A091FE000EA94F3 /* CMManeuveringSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54871A091FE000EA94F3 /* CMManeuveringSpeed.m */; };
+		EFBE54B11A091FE000EA94F3 /* CMOneFuelForWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54891A091FE000EA94F3 /* CMOneFuelForWeight.m */; };
+		EFBE54B21A091FE000EA94F3 /* CMOneFuelWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE548B1A091FE000EA94F3 /* CMOneFuelWeight.m */; };
+		EFBE54B31A091FE000EA94F3 /* CMOneUnitCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE548D1A091FE000EA94F3 /* CMOneUnitCalculator.m */; };
+		EFBE54B41A091FE000EA94F3 /* CMPDAltCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE548F1A091FE000EA94F3 /* CMPDAltCalculation.m */; };
+		EFBE54B51A091FE000EA94F3 /* CMPlanCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54911A091FE000EA94F3 /* CMPlanCalculation.m */; };
+		EFBE54B61A091FE000EA94F3 /* CMReqCalibratedAirspeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54931A091FE000EA94F3 /* CMReqCalibratedAirspeed.m */; };
+		EFBE54B71A091FE000EA94F3 /* CMReqTrueAirspeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54951A091FE000EA94F3 /* CMReqTrueAirspeed.m */; };
+		EFBE54B81A091FE000EA94F3 /* CMSpeedCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54971A091FE000EA94F3 /* CMSpeedCalculation.m */; };
+		EFBE54B91A091FE000EA94F3 /* CMTrueAirspeedCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE54991A091FE000EA94F3 /* CMTrueAirspeedCalculation.m */; };
+		EFBE54BA1A091FE000EA94F3 /* CMTrueHeadingCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE549B1A091FE000EA94F3 /* CMTrueHeadingCalculation.m */; };
+		EFBE54BB1A091FE000EA94F3 /* CMUnitCalculations.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE549D1A091FE000EA94F3 /* CMUnitCalculations.m */; };
+		EFBE54BC1A091FE000EA94F3 /* CMWindCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE549F1A091FE000EA94F3 /* CMWindCalculator.m */; };
+		EFC37FAA1A77F0E9009B5A6B /* CMArmPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC37FA91A77F0E9009B5A6B /* CMArmPickerTableViewController.m */; };
+		EFC5F5421A79430700E8652C /* NSString+FormatDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC5F5411A79430700E8652C /* NSString+FormatDecimal.m */; };
+		EFC5F5451A7AA00100E8652C /* UIView+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC5F5441A7AA00100E8652C /* UIView+FirstResponder.m */; };
+		EFC959AC1A16D2E00057E503 /* CMWBData.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC959A91A16D2E00057E503 /* CMWBData.m */; };
+		EFC959B01A16D3AF0057E503 /* CMXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC959AF1A16D3AF0057E503 /* CMXMLParser.m */; };
+		EFC97CE21A86CDC900D6A14C /* CMDrawingSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC97CE11A86CDC900D6A14C /* CMDrawingSupport.m */; };
+		EFD3D9BA1A0585A8009789FC /* CMHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3D9B91A0585A8009789FC /* CMHelpViewController.m */; };
+		EFD3D9E21A05872B009789FC /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9BC1A05872B009789FC /* about.html */; };
+		EFD3D9E31A05872B009789FC /* calc_burn.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9BD1A05872B009789FC /* calc_burn.html */; };
+		EFD3D9E41A05872B009789FC /* calc_cloud.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9BE1A05872B009789FC /* calc_cloud.html */; };
+		EFD3D9E51A05872B009789FC /* calc_convert.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9BF1A05872B009789FC /* calc_convert.html */; };
+		EFD3D9E61A05872B009789FC /* calc_flightplanner.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C01A05872B009789FC /* calc_flightplanner.html */; };
+		EFD3D9E71A05872B009789FC /* calc_fweight.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C11A05872B009789FC /* calc_fweight.html */; };
+		EFD3D9E81A05872B009789FC /* calc_htc.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C21A05872B009789FC /* calc_htc.html */; };
+		EFD3D9E91A05872B009789FC /* calc_mag.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C31A05872B009789FC /* calc_mag.html */; };
+		EFD3D9EA1A05872B009789FC /* calc_pden.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C41A05872B009789FC /* calc_pden.html */; };
+		EFD3D9EB1A05872B009789FC /* calc_rca.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C51A05872B009789FC /* calc_rca.html */; };
+		EFD3D9EC1A05872B009789FC /* calc_speed.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C61A05872B009789FC /* calc_speed.html */; };
+		EFD3D9ED1A05872B009789FC /* calc_tas.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C71A05872B009789FC /* calc_tas.html */; };
+		EFD3D9EE1A05872B009789FC /* calc_tcs.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C81A05872B009789FC /* calc_tcs.html */; };
+		EFD3D9EF1A05872B009789FC /* calc_thsc.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9C91A05872B009789FC /* calc_thsc.html */; };
+		EFD3D9F01A05872B009789FC /* calc_va.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9CA1A05872B009789FC /* calc_va.html */; };
+		EFD3D9F11A05872B009789FC /* calc_wsd.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9CB1A05872B009789FC /* calc_wsd.html */; };
+		EFD3D9F21A05872B009789FC /* calc_xwind.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9CC1A05872B009789FC /* calc_xwind.html */; };
+		EFD3D9F31A05872B009789FC /* changing_units.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9CD1A05872B009789FC /* changing_units.html */; };
+		EFD3D9F41A05872B009789FC /* coming_soon.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9CE1A05872B009789FC /* coming_soon.html */; };
+		EFD3D9F51A05872B009789FC /* disclaimer.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9CF1A05872B009789FC /* disclaimer.html */; };
+		EFD3D9F61A05872B009789FC /* e6b.css in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D01A05872B009789FC /* e6b.css */; };
+		EFD3D9F71A05872B009789FC /* entering_stations.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D11A05872B009789FC /* entering_stations.html */; };
+		EFD3D9F81A05872B009789FC /* entering_values.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D21A05872B009789FC /* entering_values.html */; };
+		EFD3D9F91A05872B009789FC /* exampleunit.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D31A05872B009789FC /* exampleunit.png */; };
+		EFD3D9FA1A05872B009789FC /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D41A05872B009789FC /* index.html */; };
+		EFD3D9FB1A05872B009789FC /* keypad.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D51A05872B009789FC /* keypad.png */; };
+		EFD3D9FC1A05872B009789FC /* sample_itunes.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D61A05872B009789FC /* sample_itunes.png */; };
+		EFD3D9FD1A05872B009789FC /* sample_map.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D71A05872B009789FC /* sample_map.png */; };
+		EFD3D9FE1A05872B009789FC /* station.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D81A05872B009789FC /* station.png */; };
+		EFD3D9FF1A05872B009789FC /* station_open.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9D91A05872B009789FC /* station_open.png */; };
+		EFD3DA001A05872B009789FC /* unitdisplay.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9DA1A05872B009789FC /* unitdisplay.png */; };
+		EFD3DA011A05872B009789FC /* using_e6b.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9DB1A05872B009789FC /* using_e6b.html */; };
+		EFD3DA021A05872B009789FC /* wb_create.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9DC1A05872B009789FC /* wb_create.html */; };
+		EFD3DA031A05872B009789FC /* wb_custom.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9DD1A05872B009789FC /* wb_custom.html */; };
+		EFD3DA041A05872B009789FC /* wb_manage.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9DE1A05872B009789FC /* wb_manage.html */; };
+		EFD3DA051A05872B009789FC /* wb_saving.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9DF1A05872B009789FC /* wb_saving.html */; };
+		EFD3DA061A05872B009789FC /* wbgraph.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9E01A05872B009789FC /* wbgraph.png */; };
+		EFD3DA071A05872B009789FC /* weightbalance.html in Resources */ = {isa = PBXBuildFile; fileRef = EFD3D9E11A05872B009789FC /* weightbalance.html */; };
+		EFDB046B1A59EF0200DB55E0 /* CMAircraftEditorSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB046A1A59EF0200DB55E0 /* CMAircraftEditorSelectorViewController.m */; };
+		EFDBD7C71A4F88820074DBE5 /* NSString+DrawString.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDBD7C61A4F88820074DBE5 /* NSString+DrawString.m */; };
+		EFDED35A19FE881200419268 /* CMCustomPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDED35919FE881200419268 /* CMCustomPushSegue.m */; };
+		EFDED35D19FE953800419268 /* CMUnitPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDED35C19FE953800419268 /* CMUnitPickerTableViewController.m */; };
+		EFDED36019FEB57200419268 /* CMHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDED35F19FEB57200419268 /* CMHeaderView.m */; };
+		EFE4B2F51A45DDFC005451B1 /* CMTableEditorMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4B2F41A45DDFC005451B1 /* CMTableEditorMenuViewController.m */; };
+		EFE4B2FA1A46060C005451B1 /* CMTableEditorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4B2F91A46060C005451B1 /* CMTableEditorViewCell.m */; };
+		EFE4B2FC1A460AF2005451B1 /* CMTableEditorStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B2FB1A460AF2005451B1 /* CMTableEditorStoryboard.storyboard */; };
+		EFE4B2FF1A460E19005451B1 /* CMTableEditorBooleanViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4B2FE1A460E19005451B1 /* CMTableEditorBooleanViewCell.m */; };
+		EFF706351A3CC04F00E5B019 /* CMLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF706341A3CC04F00E5B019 /* CMLayoutUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFA2D12D19D879D0008DD44F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA2D10819D879D0008DD44F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA2D10F19D879D0008DD44F;
+			remoteInfo = E6B;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF08B0C21A27CE46007EAEE3 /* CMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMenuView.h; sourceTree = "<group>"; };
+		EF08B0C31A27CE46007EAEE3 /* CMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMenuView.m; sourceTree = "<group>"; };
+		EF08B0C51A28C004007EAEE3 /* CMTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTextField.h; sourceTree = "<group>"; };
+		EF08B0C61A28C004007EAEE3 /* CMTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTextField.m; sourceTree = "<group>"; };
+		EF08B0C81A28D261007EAEE3 /* CMAircraftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAircraftTableViewController.h; sourceTree = "<group>"; };
+		EF08B0C91A28D261007EAEE3 /* CMAircraftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAircraftTableViewController.m; sourceTree = "<group>"; };
+		EF08B0CE1A28F582007EAEE3 /* CMAircraftDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMAircraftDatabase.h; path = ../../E6BCalcEngine/E6BCalcEngine/WB/CMAircraftDatabase.h; sourceTree = "<group>"; };
+		EF08B0CF1A28F582007EAEE3 /* CMAircraftDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMAircraftDatabase.m; path = ../../E6BCalcEngine/E6BCalcEngine/WB/CMAircraftDatabase.m; sourceTree = "<group>"; };
+		EF08B0D11A28F634007EAEE3 /* aircraft.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = aircraft.xml; path = ../../E6BCalcEngine/E6BCalcEngine/WB/aircraft.xml; sourceTree = "<group>"; };
+		EF09A1481A3FC3470020E67A /* CMTablePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTablePage.h; path = ../../TableEditor/CMTablePage.h; sourceTree = "<group>"; };
+		EF09A1491A3FC3470020E67A /* CMTablePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTablePage.m; path = ../../TableEditor/CMTablePage.m; sourceTree = "<group>"; };
+		EF09A14D1A405F370020E67A /* CMTableGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTableGroup.h; path = ../../TableEditor/CMTableGroup.h; sourceTree = "<group>"; };
+		EF09A14E1A405F370020E67A /* CMTableGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTableGroup.m; path = ../../TableEditor/CMTableGroup.m; sourceTree = "<group>"; };
+		EF09A1501A40626A0020E67A /* CMTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTableItem.h; path = ../../TableEditor/CMTableItem.h; sourceTree = "<group>"; };
+		EF09A1511A40626A0020E67A /* CMTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTableItem.m; path = ../../TableEditor/CMTableItem.m; sourceTree = "<group>"; };
+		EF09A1531A4067A60020E67A /* CMTableEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTableEditorViewController.h; path = ../../TableEditor/CMTableEditorViewController.h; sourceTree = "<group>"; };
+		EF09A1541A4067A60020E67A /* CMTableEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTableEditorViewController.m; path = ../../TableEditor/CMTableEditorViewController.m; sourceTree = "<group>"; };
+		EF09A1571A40DC3E0020E67A /* CMAircraftClassPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAircraftClassPage.h; sourceTree = "<group>"; };
+		EF09A1581A40DC3E0020E67A /* CMAircraftClassPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAircraftClassPage.m; sourceTree = "<group>"; };
+		EF09A15A1A40DCE10020E67A /* CMAircraftFuelPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAircraftFuelPage.h; sourceTree = "<group>"; };
+		EF09A15B1A40DCE10020E67A /* CMAircraftFuelPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAircraftFuelPage.m; sourceTree = "<group>"; };
+		EF09A15D1A40DCF30020E67A /* CMAircraftStationPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAircraftStationPage.h; sourceTree = "<group>"; };
+		EF09A15E1A40DCF30020E67A /* CMAircraftStationPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAircraftStationPage.m; sourceTree = "<group>"; };
+		EF09A1601A40DD020020E67A /* CMAircraftWBDataPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAircraftWBDataPage.h; sourceTree = "<group>"; };
+		EF09A1611A40DD020020E67A /* CMAircraftWBDataPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAircraftWBDataPage.m; sourceTree = "<group>"; };
+		EF09A1631A40DD0F0020E67A /* CMAircraftWBPointPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAircraftWBPointPage.h; sourceTree = "<group>"; };
+		EF09A1641A40DD0F0020E67A /* CMAircraftWBPointPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAircraftWBPointPage.m; sourceTree = "<group>"; };
+		EF20FEEB1A0E95A500DB0702 /* CMWBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMWBViewController.h; sourceTree = "<group>"; };
+		EF20FEEC1A0E95A500DB0702 /* CMWBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMWBViewController.m; sourceTree = "<group>"; };
+		EF20FEEE1A0EB8BA00DB0702 /* Angle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Angle.c; path = ../../E6BCalcEngine/E6BCalcEngine/Math/Angle.c; sourceTree = "<group>"; };
+		EF20FEEF1A0EB8BA00DB0702 /* CMComplexHull.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CMComplexHull.c; path = ../../E6BCalcEngine/E6BCalcEngine/Math/CMComplexHull.c; sourceTree = "<group>"; };
+		EF20FEF31A0EBC6500DB0702 /* CMWBCalculationStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMWBCalculationStore.h; path = ../../E6BCalcEngine/E6BCalcEngine/WB/CMWBCalculationStore.h; sourceTree = "<group>"; };
+		EF20FEF41A0EBC6500DB0702 /* CMWBCalculationStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMWBCalculationStore.m; path = ../../E6BCalcEngine/E6BCalcEngine/WB/CMWBCalculationStore.m; sourceTree = "<group>"; };
+		EF20FEF61A0EBCB000DB0702 /* CMWBCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMWBCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/WB/CMWBCalculation.h; sourceTree = "<group>"; };
+		EF20FEF71A0EBD0A00DB0702 /* CMWBCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMWBCalculation.m; path = ../../E6BCalcEngine/E6BCalcEngine/WB/CMWBCalculation.m; sourceTree = "<group>"; };
+		EF25EDC11A12ED9A006D9D32 /* CMWBGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMWBGraph.h; sourceTree = "<group>"; };
+		EF25EDC21A12ED9A006D9D32 /* CMWBGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMWBGraph.m; sourceTree = "<group>"; };
+		EF94229C19DED41F0075B6DC /* CMOutputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMOutputView.h; sourceTree = "<group>"; };
+		EF94229D19DED41F0075B6DC /* CMOutputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMOutputView.m; sourceTree = "<group>"; };
+		EFA2D11019D879D0008DD44F /* E6B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = E6B.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA2D11419D879D0008DD44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA2D11519D879D0008DD44F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFA2D11719D879D0008DD44F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFA2D11819D879D0008DD44F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFA2D11A19D879D0008DD44F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		EFA2D11B19D879D0008DD44F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		EFA2D11D19D879D0008DD44F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EFA2D11E19D879D0008DD44F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EFA2D12119D879D0008DD44F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFA2D12319D879D0008DD44F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFA2D12619D879D0008DD44F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFA2D12C19D879D0008DD44F /* E6BTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = E6BTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA2D13119D879D0008DD44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA2D13219D879D0008DD44F /* E6BTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = E6BTests.m; sourceTree = "<group>"; };
+		EFA2D13F19D88755008DD44F /* CMCalcKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCalcKeyboardView.h; sourceTree = "<group>"; };
+		EFA2D14019D88755008DD44F /* CMCalcKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCalcKeyboardView.m; sourceTree = "<group>"; };
+		EFA2D14319D88AE5008DD44F /* CMCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCalculator.h; sourceTree = "<group>"; };
+		EFA2D14419D88AE5008DD44F /* CMCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCalculator.m; sourceTree = "<group>"; };
+		EFA2D14619D892AC008DD44F /* CMInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMInputView.h; sourceTree = "<group>"; };
+		EFA2D14719D892AC008DD44F /* CMInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMInputView.m; sourceTree = "<group>"; };
+		EFA2D14919D896EB008DD44F /* CMCalcKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCalcKeyboard.h; sourceTree = "<group>"; };
+		EFA2D14A19D896EB008DD44F /* CMCalcKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCalcKeyboard.m; sourceTree = "<group>"; };
+		EFA2D14C19D8B9D3008DD44F /* CMMutableString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMutableString.h; sourceTree = "<group>"; };
+		EFA2D14D19D8B9D3008DD44F /* CMMutableString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMutableString.m; sourceTree = "<group>"; };
+		EFBE54411A091FA500EA94F3 /* E6BCalcEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = E6BCalcEngine.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6BCalcEngine.h; sourceTree = "<group>"; };
+		EFBE54421A091FAF00EA94F3 /* CMMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMMath.h; path = ../../E6BCalcEngine/E6BCalcEngine/Math/CMMath.h; sourceTree = "<group>"; };
+		EFBE54431A091FAF00EA94F3 /* CMValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMValue.h; path = ../../E6BCalcEngine/E6BCalcEngine/Math/CMValue.h; sourceTree = "<group>"; };
+		EFBE54441A091FAF00EA94F3 /* CMValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMValue.m; path = ../../E6BCalcEngine/E6BCalcEngine/Math/CMValue.m; sourceTree = "<group>"; };
+		EFBE54461A091FD400EA94F3 /* CMDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMDistance.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMDistance.h; sourceTree = "<group>"; };
+		EFBE54471A091FD400EA94F3 /* CMDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMDistance.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMDistance.m; sourceTree = "<group>"; };
+		EFBE54481A091FD400EA94F3 /* CMLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMLength.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMLength.h; sourceTree = "<group>"; };
+		EFBE54491A091FD400EA94F3 /* CMLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMLength.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMLength.m; sourceTree = "<group>"; };
+		EFBE544A1A091FD400EA94F3 /* CMMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMMeasurement.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMMeasurement.h; sourceTree = "<group>"; };
+		EFBE544B1A091FD400EA94F3 /* CMMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMMoment.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMMoment.h; sourceTree = "<group>"; };
+		EFBE544C1A091FD400EA94F3 /* CMMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMMoment.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMMoment.m; sourceTree = "<group>"; };
+		EFBE544D1A091FD400EA94F3 /* CMPressure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMPressure.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMPressure.h; sourceTree = "<group>"; };
+		EFBE544E1A091FD400EA94F3 /* CMPressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMPressure.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMPressure.m; sourceTree = "<group>"; };
+		EFBE544F1A091FD400EA94F3 /* CMSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMSpeed.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMSpeed.h; sourceTree = "<group>"; };
+		EFBE54501A091FD400EA94F3 /* CMSpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMSpeed.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMSpeed.m; sourceTree = "<group>"; };
+		EFBE54511A091FD400EA94F3 /* CMTemperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTemperature.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMTemperature.h; sourceTree = "<group>"; };
+		EFBE54521A091FD400EA94F3 /* CMTemperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTemperature.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMTemperature.m; sourceTree = "<group>"; };
+		EFBE54531A091FD400EA94F3 /* CMTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTime.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMTime.h; sourceTree = "<group>"; };
+		EFBE54541A091FD400EA94F3 /* CMTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTime.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMTime.m; sourceTree = "<group>"; };
+		EFBE54551A091FD400EA94F3 /* CMVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMVolume.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMVolume.h; sourceTree = "<group>"; };
+		EFBE54561A091FD400EA94F3 /* CMVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMVolume.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMVolume.m; sourceTree = "<group>"; };
+		EFBE54571A091FD400EA94F3 /* CMVolumeBurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMVolumeBurn.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMVolumeBurn.h; sourceTree = "<group>"; };
+		EFBE54581A091FD400EA94F3 /* CMVolumeBurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMVolumeBurn.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMVolumeBurn.m; sourceTree = "<group>"; };
+		EFBE54591A091FD400EA94F3 /* CMWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMWeight.h; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMWeight.h; sourceTree = "<group>"; };
+		EFBE545A1A091FD400EA94F3 /* CMWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMWeight.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/CMWeight.m; sourceTree = "<group>"; };
+		EFBE545B1A091FD400EA94F3 /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Measurement.m; path = ../../E6BCalcEngine/E6BCalcEngine/Units/Measurement.m; sourceTree = "<group>"; };
+		EFBE54681A091FE000EA94F3 /* CMCloudBaseCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMCloudBaseCalculator.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMCloudBaseCalculator.h; sourceTree = "<group>"; };
+		EFBE54691A091FE000EA94F3 /* CMCloudBaseCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMCloudBaseCalculator.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMCloudBaseCalculator.m; sourceTree = "<group>"; };
+		EFBE546B1A091FE000EA94F3 /* CMCrossWind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMCrossWind.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMCrossWind.h; sourceTree = "<group>"; };
+		EFBE546C1A091FE000EA94F3 /* CMCrossWind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMCrossWind.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMCrossWind.m; sourceTree = "<group>"; };
+		EFBE546D1A091FE000EA94F3 /* CMDistanceTraveled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMDistanceTraveled.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMDistanceTraveled.h; sourceTree = "<group>"; };
+		EFBE546E1A091FE000EA94F3 /* CMDistanceTraveled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMDistanceTraveled.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMDistanceTraveled.m; sourceTree = "<group>"; };
+		EFBE546F1A091FE000EA94F3 /* CME6BCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CME6BCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CME6BCalculation.h; sourceTree = "<group>"; };
+		EFBE54701A091FE000EA94F3 /* CME6BCalculationStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CME6BCalculationStore.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CME6BCalculationStore.h; sourceTree = "<group>"; };
+		EFBE54711A091FE000EA94F3 /* CME6BCalculationStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CME6BCalculationStore.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CME6BCalculationStore.m; sourceTree = "<group>"; };
+		EFBE54721A091FE000EA94F3 /* CME6BDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CME6BDataStore.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CME6BDataStore.h; sourceTree = "<group>"; };
+		EFBE54731A091FE000EA94F3 /* CME6BDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CME6BDataStore.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CME6BDataStore.m; sourceTree = "<group>"; };
+		EFBE54741A091FE000EA94F3 /* CMFindHeadingCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMFindHeadingCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFindHeadingCalculation.h; sourceTree = "<group>"; };
+		EFBE54751A091FE000EA94F3 /* CMFindHeadingCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMFindHeadingCalculation.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFindHeadingCalculation.m; sourceTree = "<group>"; };
+		EFBE54761A091FE000EA94F3 /* CMFuelBurnRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMFuelBurnRate.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelBurnRate.h; sourceTree = "<group>"; };
+		EFBE54771A091FE000EA94F3 /* CMFuelBurnRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMFuelBurnRate.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelBurnRate.m; sourceTree = "<group>"; };
+		EFBE54781A091FE000EA94F3 /* CMFuelEndurance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMFuelEndurance.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelEndurance.h; sourceTree = "<group>"; };
+		EFBE54791A091FE000EA94F3 /* CMFuelEndurance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMFuelEndurance.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelEndurance.m; sourceTree = "<group>"; };
+		EFBE547A1A091FE000EA94F3 /* CMFuelForWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMFuelForWeight.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelForWeight.h; sourceTree = "<group>"; };
+		EFBE547B1A091FE000EA94F3 /* CMFuelForWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMFuelForWeight.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelForWeight.m; sourceTree = "<group>"; };
+		EFBE547C1A091FE000EA94F3 /* CMFuelRequired.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMFuelRequired.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelRequired.h; sourceTree = "<group>"; };
+		EFBE547D1A091FE000EA94F3 /* CMFuelRequired.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMFuelRequired.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelRequired.m; sourceTree = "<group>"; };
+		EFBE547E1A091FE000EA94F3 /* CMFuelWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMFuelWeight.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelWeight.h; sourceTree = "<group>"; };
+		EFBE547F1A091FE000EA94F3 /* CMFuelWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMFuelWeight.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMFuelWeight.m; sourceTree = "<group>"; };
+		EFBE54801A091FE000EA94F3 /* CMHeadingCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMHeadingCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMHeadingCalculation.h; sourceTree = "<group>"; };
+		EFBE54811A091FE000EA94F3 /* CMHeadingCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMHeadingCalculation.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMHeadingCalculation.m; sourceTree = "<group>"; };
+		EFBE54821A091FE000EA94F3 /* CMLegTimeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMLegTimeCalculator.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMLegTimeCalculator.h; sourceTree = "<group>"; };
+		EFBE54831A091FE000EA94F3 /* CMLegTimeCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMLegTimeCalculator.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMLegTimeCalculator.m; sourceTree = "<group>"; };
+		EFBE54841A091FE000EA94F3 /* CMMagneticHeadingCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMMagneticHeadingCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMMagneticHeadingCalculation.h; sourceTree = "<group>"; };
+		EFBE54851A091FE000EA94F3 /* CMMagneticHeadingCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMMagneticHeadingCalculation.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMMagneticHeadingCalculation.m; sourceTree = "<group>"; };
+		EFBE54861A091FE000EA94F3 /* CMManeuveringSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMManeuveringSpeed.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMManeuveringSpeed.h; sourceTree = "<group>"; };
+		EFBE54871A091FE000EA94F3 /* CMManeuveringSpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMManeuveringSpeed.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMManeuveringSpeed.m; sourceTree = "<group>"; };
+		EFBE54881A091FE000EA94F3 /* CMOneFuelForWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMOneFuelForWeight.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMOneFuelForWeight.h; sourceTree = "<group>"; };
+		EFBE54891A091FE000EA94F3 /* CMOneFuelForWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMOneFuelForWeight.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMOneFuelForWeight.m; sourceTree = "<group>"; };
+		EFBE548A1A091FE000EA94F3 /* CMOneFuelWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMOneFuelWeight.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMOneFuelWeight.h; sourceTree = "<group>"; };
+		EFBE548B1A091FE000EA94F3 /* CMOneFuelWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMOneFuelWeight.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMOneFuelWeight.m; sourceTree = "<group>"; };
+		EFBE548C1A091FE000EA94F3 /* CMOneUnitCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMOneUnitCalculator.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMOneUnitCalculator.h; sourceTree = "<group>"; };
+		EFBE548D1A091FE000EA94F3 /* CMOneUnitCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMOneUnitCalculator.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMOneUnitCalculator.m; sourceTree = "<group>"; };
+		EFBE548E1A091FE000EA94F3 /* CMPDAltCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMPDAltCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMPDAltCalculation.h; sourceTree = "<group>"; };
+		EFBE548F1A091FE000EA94F3 /* CMPDAltCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMPDAltCalculation.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMPDAltCalculation.m; sourceTree = "<group>"; };
+		EFBE54901A091FE000EA94F3 /* CMPlanCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMPlanCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMPlanCalculation.h; sourceTree = "<group>"; };
+		EFBE54911A091FE000EA94F3 /* CMPlanCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMPlanCalculation.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMPlanCalculation.m; sourceTree = "<group>"; };
+		EFBE54921A091FE000EA94F3 /* CMReqCalibratedAirspeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMReqCalibratedAirspeed.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMReqCalibratedAirspeed.h; sourceTree = "<group>"; };
+		EFBE54931A091FE000EA94F3 /* CMReqCalibratedAirspeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMReqCalibratedAirspeed.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMReqCalibratedAirspeed.m; sourceTree = "<group>"; };
+		EFBE54941A091FE000EA94F3 /* CMReqTrueAirspeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMReqTrueAirspeed.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMReqTrueAirspeed.h; sourceTree = "<group>"; };
+		EFBE54951A091FE000EA94F3 /* CMReqTrueAirspeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMReqTrueAirspeed.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMReqTrueAirspeed.m; sourceTree = "<group>"; };
+		EFBE54961A091FE000EA94F3 /* CMSpeedCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMSpeedCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMSpeedCalculation.h; sourceTree = "<group>"; };
+		EFBE54971A091FE000EA94F3 /* CMSpeedCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMSpeedCalculation.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMSpeedCalculation.m; sourceTree = "<group>"; };
+		EFBE54981A091FE000EA94F3 /* CMTrueAirspeedCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTrueAirspeedCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMTrueAirspeedCalculation.h; sourceTree = "<group>"; };
+		EFBE54991A091FE000EA94F3 /* CMTrueAirspeedCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTrueAirspeedCalculation.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMTrueAirspeedCalculation.m; sourceTree = "<group>"; };
+		EFBE549A1A091FE000EA94F3 /* CMTrueHeadingCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTrueHeadingCalculation.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMTrueHeadingCalculation.h; sourceTree = "<group>"; };
+		EFBE549B1A091FE000EA94F3 /* CMTrueHeadingCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTrueHeadingCalculation.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMTrueHeadingCalculation.m; sourceTree = "<group>"; };
+		EFBE549C1A091FE000EA94F3 /* CMUnitCalculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMUnitCalculations.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMUnitCalculations.h; sourceTree = "<group>"; };
+		EFBE549D1A091FE000EA94F3 /* CMUnitCalculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMUnitCalculations.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMUnitCalculations.m; sourceTree = "<group>"; };
+		EFBE549E1A091FE000EA94F3 /* CMWindCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMWindCalculator.h; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMWindCalculator.h; sourceTree = "<group>"; };
+		EFBE549F1A091FE000EA94F3 /* CMWindCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMWindCalculator.m; path = ../../E6BCalcEngine/E6BCalcEngine/E6B/CMWindCalculator.m; sourceTree = "<group>"; };
+		EFC37FA81A77F0E9009B5A6B /* CMArmPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMArmPickerTableViewController.h; sourceTree = "<group>"; };
+		EFC37FA91A77F0E9009B5A6B /* CMArmPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMArmPickerTableViewController.m; sourceTree = "<group>"; };
+		EFC5F5401A79430700E8652C /* NSString+FormatDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FormatDecimal.h"; sourceTree = "<group>"; };
+		EFC5F5411A79430700E8652C /* NSString+FormatDecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FormatDecimal.m"; sourceTree = "<group>"; };
+		EFC5F5431A7AA00100E8652C /* UIView+FirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FirstResponder.h"; sourceTree = "<group>"; };
+		EFC5F5441A7AA00100E8652C /* UIView+FirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FirstResponder.m"; sourceTree = "<group>"; };
+		EFC959A81A16D2E00057E503 /* CMWBData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMWBData.h; path = ../../E6BCalcEngine/E6BCalcEngine/WB/CMWBData.h; sourceTree = "<group>"; };
+		EFC959A91A16D2E00057E503 /* CMWBData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMWBData.m; path = ../../E6BCalcEngine/E6BCalcEngine/WB/CMWBData.m; sourceTree = "<group>"; };
+		EFC959AE1A16D3AF0057E503 /* CMXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMXMLParser.h; sourceTree = "<group>"; };
+		EFC959AF1A16D3AF0057E503 /* CMXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMXMLParser.m; sourceTree = "<group>"; };
+		EFC97CE01A86CDC900D6A14C /* CMDrawingSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDrawingSupport.h; sourceTree = "<group>"; };
+		EFC97CE11A86CDC900D6A14C /* CMDrawingSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDrawingSupport.m; sourceTree = "<group>"; };
+		EFD3D9B81A0585A8009789FC /* CMHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHelpViewController.h; sourceTree = "<group>"; };
+		EFD3D9B91A0585A8009789FC /* CMHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHelpViewController.m; sourceTree = "<group>"; };
+		EFD3D9BC1A05872B009789FC /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		EFD3D9BD1A05872B009789FC /* calc_burn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_burn.html; sourceTree = "<group>"; };
+		EFD3D9BE1A05872B009789FC /* calc_cloud.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_cloud.html; sourceTree = "<group>"; };
+		EFD3D9BF1A05872B009789FC /* calc_convert.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_convert.html; sourceTree = "<group>"; };
+		EFD3D9C01A05872B009789FC /* calc_flightplanner.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_flightplanner.html; sourceTree = "<group>"; };
+		EFD3D9C11A05872B009789FC /* calc_fweight.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_fweight.html; sourceTree = "<group>"; };
+		EFD3D9C21A05872B009789FC /* calc_htc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_htc.html; sourceTree = "<group>"; };
+		EFD3D9C31A05872B009789FC /* calc_mag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_mag.html; sourceTree = "<group>"; };
+		EFD3D9C41A05872B009789FC /* calc_pden.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_pden.html; sourceTree = "<group>"; };
+		EFD3D9C51A05872B009789FC /* calc_rca.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_rca.html; sourceTree = "<group>"; };
+		EFD3D9C61A05872B009789FC /* calc_speed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_speed.html; sourceTree = "<group>"; };
+		EFD3D9C71A05872B009789FC /* calc_tas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_tas.html; sourceTree = "<group>"; };
+		EFD3D9C81A05872B009789FC /* calc_tcs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_tcs.html; sourceTree = "<group>"; };
+		EFD3D9C91A05872B009789FC /* calc_thsc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_thsc.html; sourceTree = "<group>"; };
+		EFD3D9CA1A05872B009789FC /* calc_va.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_va.html; sourceTree = "<group>"; };
+		EFD3D9CB1A05872B009789FC /* calc_wsd.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_wsd.html; sourceTree = "<group>"; };
+		EFD3D9CC1A05872B009789FC /* calc_xwind.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calc_xwind.html; sourceTree = "<group>"; };
+		EFD3D9CD1A05872B009789FC /* changing_units.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = changing_units.html; sourceTree = "<group>"; };
+		EFD3D9CE1A05872B009789FC /* coming_soon.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = coming_soon.html; sourceTree = "<group>"; };
+		EFD3D9CF1A05872B009789FC /* disclaimer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = disclaimer.html; sourceTree = "<group>"; };
+		EFD3D9D01A05872B009789FC /* e6b.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = e6b.css; sourceTree = "<group>"; };
+		EFD3D9D11A05872B009789FC /* entering_stations.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = entering_stations.html; sourceTree = "<group>"; };
+		EFD3D9D21A05872B009789FC /* entering_values.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = entering_values.html; sourceTree = "<group>"; };
+		EFD3D9D31A05872B009789FC /* exampleunit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exampleunit.png; sourceTree = "<group>"; };
+		EFD3D9D41A05872B009789FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EFD3D9D51A05872B009789FC /* keypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad.png; sourceTree = "<group>"; };
+		EFD3D9D61A05872B009789FC /* sample_itunes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_itunes.png; sourceTree = "<group>"; };
+		EFD3D9D71A05872B009789FC /* sample_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_map.png; sourceTree = "<group>"; };
+		EFD3D9D81A05872B009789FC /* station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = station.png; sourceTree = "<group>"; };
+		EFD3D9D91A05872B009789FC /* station_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = station_open.png; sourceTree = "<group>"; };
+		EFD3D9DA1A05872B009789FC /* unitdisplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unitdisplay.png; sourceTree = "<group>"; };
+		EFD3D9DB1A05872B009789FC /* using_e6b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = using_e6b.html; sourceTree = "<group>"; };
+		EFD3D9DC1A05872B009789FC /* wb_create.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wb_create.html; sourceTree = "<group>"; };
+		EFD3D9DD1A05872B009789FC /* wb_custom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wb_custom.html; sourceTree = "<group>"; };
+		EFD3D9DE1A05872B009789FC /* wb_manage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wb_manage.html; sourceTree = "<group>"; };
+		EFD3D9DF1A05872B009789FC /* wb_saving.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wb_saving.html; sourceTree = "<group>"; };
+		EFD3D9E01A05872B009789FC /* wbgraph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wbgraph.png; sourceTree = "<group>"; };
+		EFD3D9E11A05872B009789FC /* weightbalance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = weightbalance.html; sourceTree = "<group>"; };
+		EFDB04691A59EF0200DB55E0 /* CMAircraftEditorSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAircraftEditorSelectorViewController.h; sourceTree = "<group>"; };
+		EFDB046A1A59EF0200DB55E0 /* CMAircraftEditorSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAircraftEditorSelectorViewController.m; sourceTree = "<group>"; };
+		EFDBD7C51A4F88820074DBE5 /* NSString+DrawString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DrawString.h"; sourceTree = "<group>"; };
+		EFDBD7C61A4F88820074DBE5 /* NSString+DrawString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DrawString.m"; sourceTree = "<group>"; };
+		EFDED35819FE881200419268 /* CMCustomPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCustomPushSegue.h; sourceTree = "<group>"; };
+		EFDED35919FE881200419268 /* CMCustomPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCustomPushSegue.m; sourceTree = "<group>"; };
+		EFDED35B19FE953800419268 /* CMUnitPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUnitPickerTableViewController.h; sourceTree = "<group>"; };
+		EFDED35C19FE953800419268 /* CMUnitPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUnitPickerTableViewController.m; sourceTree = "<group>"; };
+		EFDED35E19FEB57200419268 /* CMHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHeaderView.h; sourceTree = "<group>"; };
+		EFDED35F19FEB57200419268 /* CMHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHeaderView.m; sourceTree = "<group>"; };
+		EFE4B2F31A45DDFC005451B1 /* CMTableEditorMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTableEditorMenuViewController.h; sourceTree = "<group>"; };
+		EFE4B2F41A45DDFC005451B1 /* CMTableEditorMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTableEditorMenuViewController.m; sourceTree = "<group>"; };
+		EFE4B2F81A46060C005451B1 /* CMTableEditorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTableEditorViewCell.h; path = ../../TableEditor/CMTableEditorViewCell.h; sourceTree = "<group>"; };
+		EFE4B2F91A46060C005451B1 /* CMTableEditorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTableEditorViewCell.m; path = ../../TableEditor/CMTableEditorViewCell.m; sourceTree = "<group>"; };
+		EFE4B2FB1A460AF2005451B1 /* CMTableEditorStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CMTableEditorStoryboard.storyboard; path = ../../TableEditor/CMTableEditorStoryboard.storyboard; sourceTree = "<group>"; };
+		EFE4B2FD1A460E19005451B1 /* CMTableEditorBooleanViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTableEditorBooleanViewCell.h; path = ../../TableEditor/CMTableEditorBooleanViewCell.h; sourceTree = "<group>"; };
+		EFE4B2FE1A460E19005451B1 /* CMTableEditorBooleanViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTableEditorBooleanViewCell.m; path = ../../TableEditor/CMTableEditorBooleanViewCell.m; sourceTree = "<group>"; };
+		EFF706331A3CC04F00E5B019 /* CMLayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLayoutUtils.h; sourceTree = "<group>"; };
+		EFF706341A3CC04F00E5B019 /* CMLayoutUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMLayoutUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA2D10D19D879D0008DD44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA2D12919D879D0008DD44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF09A1471A3FBA1C0020E67A /* TableEditor */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4B2FB1A460AF2005451B1 /* CMTableEditorStoryboard.storyboard */,
+				EF09A1481A3FC3470020E67A /* CMTablePage.h */,
+				EF09A1491A3FC3470020E67A /* CMTablePage.m */,
+				EF09A14D1A405F370020E67A /* CMTableGroup.h */,
+				EF09A14E1A405F370020E67A /* CMTableGroup.m */,
+				EF09A1501A40626A0020E67A /* CMTableItem.h */,
+				EF09A1511A40626A0020E67A /* CMTableItem.m */,
+				EF09A1531A4067A60020E67A /* CMTableEditorViewController.h */,
+				EF09A1541A4067A60020E67A /* CMTableEditorViewController.m */,
+				EFE4B2F31A45DDFC005451B1 /* CMTableEditorMenuViewController.h */,
+				EFE4B2F41A45DDFC005451B1 /* CMTableEditorMenuViewController.m */,
+				EFE4B2F81A46060C005451B1 /* CMTableEditorViewCell.h */,
+				EFE4B2F91A46060C005451B1 /* CMTableEditorViewCell.m */,
+				EFE4B2FD1A460E19005451B1 /* CMTableEditorBooleanViewCell.h */,
+				EFE4B2FE1A460E19005451B1 /* CMTableEditorBooleanViewCell.m */,
+			);
+			name = TableEditor;
+			sourceTree = "<group>";
+		};
+		EF09A1561A40D9970020E67A /* AircraftEditor */ = {
+			isa = PBXGroup;
+			children = (
+				EF09A1571A40DC3E0020E67A /* CMAircraftClassPage.h */,
+				EF09A1581A40DC3E0020E67A /* CMAircraftClassPage.m */,
+				EF09A15A1A40DCE10020E67A /* CMAircraftFuelPage.h */,
+				EF09A15B1A40DCE10020E67A /* CMAircraftFuelPage.m */,
+				EF09A15D1A40DCF30020E67A /* CMAircraftStationPage.h */,
+				EF09A15E1A40DCF30020E67A /* CMAircraftStationPage.m */,
+				EF09A1601A40DD020020E67A /* CMAircraftWBDataPage.h */,
+				EF09A1611A40DD020020E67A /* CMAircraftWBDataPage.m */,
+				EF09A1631A40DD0F0020E67A /* CMAircraftWBPointPage.h */,
+				EF09A1641A40DD0F0020E67A /* CMAircraftWBPointPage.m */,
+			);
+			name = AircraftEditor;
+			sourceTree = "<group>";
+		};
+		EF20FEF21A0EBC2C00DB0702 /* WB */ = {
+			isa = PBXGroup;
+			children = (
+				EFC959A81A16D2E00057E503 /* CMWBData.h */,
+				EFC959A91A16D2E00057E503 /* CMWBData.m */,
+				EF20FEF31A0EBC6500DB0702 /* CMWBCalculationStore.h */,
+				EF20FEF41A0EBC6500DB0702 /* CMWBCalculationStore.m */,
+				EF20FEF61A0EBCB000DB0702 /* CMWBCalculation.h */,
+				EF20FEF71A0EBD0A00DB0702 /* CMWBCalculation.m */,
+				EFC959AE1A16D3AF0057E503 /* CMXMLParser.h */,
+				EFC959AF1A16D3AF0057E503 /* CMXMLParser.m */,
+				EF08B0CE1A28F582007EAEE3 /* CMAircraftDatabase.h */,
+				EF08B0CF1A28F582007EAEE3 /* CMAircraftDatabase.m */,
+				EF08B0D11A28F634007EAEE3 /* aircraft.xml */,
+			);
+			name = WB;
+			sourceTree = "<group>";
+		};
+		EFA2D10719D879D0008DD44F = {
+			isa = PBXGroup;
+			children = (
+				EFA2D11219D879D0008DD44F /* E6B */,
+				EFA2D12F19D879D0008DD44F /* E6BTests */,
+				EFA2D11119D879D0008DD44F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA2D11119D879D0008DD44F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2D11019D879D0008DD44F /* E6B.app */,
+				EFA2D12C19D879D0008DD44F /* E6BTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA2D11219D879D0008DD44F /* E6B */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2D12019D879D0008DD44F /* Main.storyboard */,
+				EFA2D13C19D87AE5008DD44F /* View Controllers */,
+				EFA2D13D19D87AF6008DD44F /* Views */,
+				EFDED35719FE87E200419268 /* Segues */,
+				EFDBD7C41A4F884E0074DBE5 /* Categories */,
+				EFA2D14219D88AC7008DD44F /* Utilities */,
+				EFBE543D1A091F6B00EA94F3 /* E6BCalcEngine */,
+				EF09A1561A40D9970020E67A /* AircraftEditor */,
+				EF09A1471A3FBA1C0020E67A /* TableEditor */,
+				EFA2D13E19D87B00008DD44F /* Support */,
+				EFA2D12319D879D0008DD44F /* Images.xcassets */,
+				EFA2D12519D879D0008DD44F /* LaunchScreen.xib */,
+				EFA2D11319D879D0008DD44F /* Supporting Files */,
+			);
+			path = E6B;
+			sourceTree = "<group>";
+		};
+		EFA2D11319D879D0008DD44F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2D11419D879D0008DD44F /* Info.plist */,
+				EFA2D11519D879D0008DD44F /* main.m */,
+				EFD3D9BB1A05872B009789FC /* help */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFA2D12F19D879D0008DD44F /* E6BTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2D13219D879D0008DD44F /* E6BTests.m */,
+				EFA2D13019D879D0008DD44F /* Supporting Files */,
+			);
+			path = E6BTests;
+			sourceTree = "<group>";
+		};
+		EFA2D13019D879D0008DD44F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2D13119D879D0008DD44F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFA2D13C19D87AE5008DD44F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2D11A19D879D0008DD44F /* MasterViewController.h */,
+				EFA2D11B19D879D0008DD44F /* MasterViewController.m */,
+				EFA2D11D19D879D0008DD44F /* DetailViewController.h */,
+				EFA2D11E19D879D0008DD44F /* DetailViewController.m */,
+				EFDED35B19FE953800419268 /* CMUnitPickerTableViewController.h */,
+				EFDED35C19FE953800419268 /* CMUnitPickerTableViewController.m */,
+				EFD3D9B81A0585A8009789FC /* CMHelpViewController.h */,
+				EFD3D9B91A0585A8009789FC /* CMHelpViewController.m */,
+				EF20FEEB1A0E95A500DB0702 /* CMWBViewController.h */,
+				EF20FEEC1A0E95A500DB0702 /* CMWBViewController.m */,
+				EF08B0C81A28D261007EAEE3 /* CMAircraftTableViewController.h */,
+				EF08B0C91A28D261007EAEE3 /* CMAircraftTableViewController.m */,
+				EFDB04691A59EF0200DB55E0 /* CMAircraftEditorSelectorViewController.h */,
+				EFDB046A1A59EF0200DB55E0 /* CMAircraftEditorSelectorViewController.m */,
+				EFC37FA81A77F0E9009B5A6B /* CMArmPickerTableViewController.h */,
+				EFC37FA91A77F0E9009B5A6B /* CMArmPickerTableViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EFA2D13D19D87AF6008DD44F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2D13F19D88755008DD44F /* CMCalcKeyboardView.h */,
+				EFA2D14019D88755008DD44F /* CMCalcKeyboardView.m */,
+				EFA2D14619D892AC008DD44F /* CMInputView.h */,
+				EFA2D14719D892AC008DD44F /* CMInputView.m */,
+				EF94229C19DED41F0075B6DC /* CMOutputView.h */,
+				EF94229D19DED41F0075B6DC /* CMOutputView.m */,
+				EFDED35E19FEB57200419268 /* CMHeaderView.h */,
+				EFDED35F19FEB57200419268 /* CMHeaderView.m */,
+				EF25EDC11A12ED9A006D9D32 /* CMWBGraph.h */,
+				EF25EDC21A12ED9A006D9D32 /* CMWBGraph.m */,
+				EF08B0C21A27CE46007EAEE3 /* CMMenuView.h */,
+				EF08B0C31A27CE46007EAEE3 /* CMMenuView.m */,
+				EF08B0C51A28C004007EAEE3 /* CMTextField.h */,
+				EF08B0C61A28C004007EAEE3 /* CMTextField.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EFA2D13E19D87B00008DD44F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2D11719D879D0008DD44F /* AppDelegate.h */,
+				EFA2D11819D879D0008DD44F /* AppDelegate.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		EFA2D14219D88AC7008DD44F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2D14319D88AE5008DD44F /* CMCalculator.h */,
+				EFA2D14419D88AE5008DD44F /* CMCalculator.m */,
+				EFA2D14919D896EB008DD44F /* CMCalcKeyboard.h */,
+				EFA2D14A19D896EB008DD44F /* CMCalcKeyboard.m */,
+				EFA2D14C19D8B9D3008DD44F /* CMMutableString.h */,
+				EFA2D14D19D8B9D3008DD44F /* CMMutableString.m */,
+				EFF706331A3CC04F00E5B019 /* CMLayoutUtils.h */,
+				EFF706341A3CC04F00E5B019 /* CMLayoutUtils.m */,
+				EFC97CE01A86CDC900D6A14C /* CMDrawingSupport.h */,
+				EFC97CE11A86CDC900D6A14C /* CMDrawingSupport.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		EFBE543D1A091F6B00EA94F3 /* E6BCalcEngine */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE54411A091FA500EA94F3 /* E6BCalcEngine.h */,
+				EFBE543E1A091F7A00EA94F3 /* Math */,
+				EFBE543F1A091F7E00EA94F3 /* E6B */,
+				EFBE54401A091F8A00EA94F3 /* Units */,
+				EF20FEF21A0EBC2C00DB0702 /* WB */,
+			);
+			name = E6BCalcEngine;
+			sourceTree = "<group>";
+		};
+		EFBE543E1A091F7A00EA94F3 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE54421A091FAF00EA94F3 /* CMMath.h */,
+				EFBE54431A091FAF00EA94F3 /* CMValue.h */,
+				EFBE54441A091FAF00EA94F3 /* CMValue.m */,
+				EF20FEEE1A0EB8BA00DB0702 /* Angle.c */,
+				EF20FEEF1A0EB8BA00DB0702 /* CMComplexHull.c */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		EFBE543F1A091F7E00EA94F3 /* E6B */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE546F1A091FE000EA94F3 /* CME6BCalculation.h */,
+				EFBE54701A091FE000EA94F3 /* CME6BCalculationStore.h */,
+				EFBE54711A091FE000EA94F3 /* CME6BCalculationStore.m */,
+				EFBE54681A091FE000EA94F3 /* CMCloudBaseCalculator.h */,
+				EFBE54691A091FE000EA94F3 /* CMCloudBaseCalculator.m */,
+				EFBE546B1A091FE000EA94F3 /* CMCrossWind.h */,
+				EFBE546C1A091FE000EA94F3 /* CMCrossWind.m */,
+				EFBE546D1A091FE000EA94F3 /* CMDistanceTraveled.h */,
+				EFBE546E1A091FE000EA94F3 /* CMDistanceTraveled.m */,
+				EFBE54721A091FE000EA94F3 /* CME6BDataStore.h */,
+				EFBE54731A091FE000EA94F3 /* CME6BDataStore.m */,
+				EFBE54741A091FE000EA94F3 /* CMFindHeadingCalculation.h */,
+				EFBE54751A091FE000EA94F3 /* CMFindHeadingCalculation.m */,
+				EFBE54761A091FE000EA94F3 /* CMFuelBurnRate.h */,
+				EFBE54771A091FE000EA94F3 /* CMFuelBurnRate.m */,
+				EFBE54781A091FE000EA94F3 /* CMFuelEndurance.h */,
+				EFBE54791A091FE000EA94F3 /* CMFuelEndurance.m */,
+				EFBE547A1A091FE000EA94F3 /* CMFuelForWeight.h */,
+				EFBE547B1A091FE000EA94F3 /* CMFuelForWeight.m */,
+				EFBE547C1A091FE000EA94F3 /* CMFuelRequired.h */,
+				EFBE547D1A091FE000EA94F3 /* CMFuelRequired.m */,
+				EFBE547E1A091FE000EA94F3 /* CMFuelWeight.h */,
+				EFBE547F1A091FE000EA94F3 /* CMFuelWeight.m */,
+				EFBE54801A091FE000EA94F3 /* CMHeadingCalculation.h */,
+				EFBE54811A091FE000EA94F3 /* CMHeadingCalculation.m */,
+				EFBE54821A091FE000EA94F3 /* CMLegTimeCalculator.h */,
+				EFBE54831A091FE000EA94F3 /* CMLegTimeCalculator.m */,
+				EFBE54841A091FE000EA94F3 /* CMMagneticHeadingCalculation.h */,
+				EFBE54851A091FE000EA94F3 /* CMMagneticHeadingCalculation.m */,
+				EFBE54861A091FE000EA94F3 /* CMManeuveringSpeed.h */,
+				EFBE54871A091FE000EA94F3 /* CMManeuveringSpeed.m */,
+				EFBE54881A091FE000EA94F3 /* CMOneFuelForWeight.h */,
+				EFBE54891A091FE000EA94F3 /* CMOneFuelForWeight.m */,
+				EFBE548A1A091FE000EA94F3 /* CMOneFuelWeight.h */,
+				EFBE548B1A091FE000EA94F3 /* CMOneFuelWeight.m */,
+				EFBE548C1A091FE000EA94F3 /* CMOneUnitCalculator.h */,
+				EFBE548D1A091FE000EA94F3 /* CMOneUnitCalculator.m */,
+				EFBE548E1A091FE000EA94F3 /* CMPDAltCalculation.h */,
+				EFBE548F1A091FE000EA94F3 /* CMPDAltCalculation.m */,
+				EFBE54901A091FE000EA94F3 /* CMPlanCalculation.h */,
+				EFBE54911A091FE000EA94F3 /* CMPlanCalculation.m */,
+				EFBE54921A091FE000EA94F3 /* CMReqCalibratedAirspeed.h */,
+				EFBE54931A091FE000EA94F3 /* CMReqCalibratedAirspeed.m */,
+				EFBE54941A091FE000EA94F3 /* CMReqTrueAirspeed.h */,
+				EFBE54951A091FE000EA94F3 /* CMReqTrueAirspeed.m */,
+				EFBE54961A091FE000EA94F3 /* CMSpeedCalculation.h */,
+				EFBE54971A091FE000EA94F3 /* CMSpeedCalculation.m */,
+				EFBE54981A091FE000EA94F3 /* CMTrueAirspeedCalculation.h */,
+				EFBE54991A091FE000EA94F3 /* CMTrueAirspeedCalculation.m */,
+				EFBE549A1A091FE000EA94F3 /* CMTrueHeadingCalculation.h */,
+				EFBE549B1A091FE000EA94F3 /* CMTrueHeadingCalculation.m */,
+				EFBE549C1A091FE000EA94F3 /* CMUnitCalculations.h */,
+				EFBE549D1A091FE000EA94F3 /* CMUnitCalculations.m */,
+				EFBE549E1A091FE000EA94F3 /* CMWindCalculator.h */,
+				EFBE549F1A091FE000EA94F3 /* CMWindCalculator.m */,
+			);
+			name = E6B;
+			sourceTree = "<group>";
+		};
+		EFBE54401A091F8A00EA94F3 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE54461A091FD400EA94F3 /* CMDistance.h */,
+				EFBE54471A091FD400EA94F3 /* CMDistance.m */,
+				EFBE54481A091FD400EA94F3 /* CMLength.h */,
+				EFBE54491A091FD400EA94F3 /* CMLength.m */,
+				EFBE544A1A091FD400EA94F3 /* CMMeasurement.h */,
+				EFBE544B1A091FD400EA94F3 /* CMMoment.h */,
+				EFBE544C1A091FD400EA94F3 /* CMMoment.m */,
+				EFBE544D1A091FD400EA94F3 /* CMPressure.h */,
+				EFBE544E1A091FD400EA94F3 /* CMPressure.m */,
+				EFBE544F1A091FD400EA94F3 /* CMSpeed.h */,
+				EFBE54501A091FD400EA94F3 /* CMSpeed.m */,
+				EFBE54511A091FD400EA94F3 /* CMTemperature.h */,
+				EFBE54521A091FD400EA94F3 /* CMTemperature.m */,
+				EFBE54531A091FD400EA94F3 /* CMTime.h */,
+				EFBE54541A091FD400EA94F3 /* CMTime.m */,
+				EFBE54551A091FD400EA94F3 /* CMVolume.h */,
+				EFBE54561A091FD400EA94F3 /* CMVolume.m */,
+				EFBE54571A091FD400EA94F3 /* CMVolumeBurn.h */,
+				EFBE54581A091FD400EA94F3 /* CMVolumeBurn.m */,
+				EFBE54591A091FD400EA94F3 /* CMWeight.h */,
+				EFBE545A1A091FD400EA94F3 /* CMWeight.m */,
+				EFBE545B1A091FD400EA94F3 /* Measurement.m */,
+			);
+			name = Units;
+			sourceTree = "<group>";
+		};
+		EFD3D9BB1A05872B009789FC /* help */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3D9BC1A05872B009789FC /* about.html */,
+				EFD3D9BD1A05872B009789FC /* calc_burn.html */,
+				EFD3D9BE1A05872B009789FC /* calc_cloud.html */,
+				EFD3D9BF1A05872B009789FC /* calc_convert.html */,
+				EFD3D9C01A05872B009789FC /* calc_flightplanner.html */,
+				EFD3D9C11A05872B009789FC /* calc_fweight.html */,
+				EFD3D9C21A05872B009789FC /* calc_htc.html */,
+				EFD3D9C31A05872B009789FC /* calc_mag.html */,
+				EFD3D9C41A05872B009789FC /* calc_pden.html */,
+				EFD3D9C51A05872B009789FC /* calc_rca.html */,
+				EFD3D9C61A05872B009789FC /* calc_speed.html */,
+				EFD3D9C71A05872B009789FC /* calc_tas.html */,
+				EFD3D9C81A05872B009789FC /* calc_tcs.html */,
+				EFD3D9C91A05872B009789FC /* calc_thsc.html */,
+				EFD3D9CA1A05872B009789FC /* calc_va.html */,
+				EFD3D9CB1A05872B009789FC /* calc_wsd.html */,
+				EFD3D9CC1A05872B009789FC /* calc_xwind.html */,
+				EFD3D9CD1A05872B009789FC /* changing_units.html */,
+				EFD3D9CE1A05872B009789FC /* coming_soon.html */,
+				EFD3D9CF1A05872B009789FC /* disclaimer.html */,
+				EFD3D9D01A05872B009789FC /* e6b.css */,
+				EFD3D9D11A05872B009789FC /* entering_stations.html */,
+				EFD3D9D21A05872B009789FC /* entering_values.html */,
+				EFD3D9D31A05872B009789FC /* exampleunit.png */,
+				EFD3D9D41A05872B009789FC /* index.html */,
+				EFD3D9D51A05872B009789FC /* keypad.png */,
+				EFD3D9D61A05872B009789FC /* sample_itunes.png */,
+				EFD3D9D71A05872B009789FC /* sample_map.png */,
+				EFD3D9D81A05872B009789FC /* station.png */,
+				EFD3D9D91A05872B009789FC /* station_open.png */,
+				EFD3D9DA1A05872B009789FC /* unitdisplay.png */,
+				EFD3D9DB1A05872B009789FC /* using_e6b.html */,
+				EFD3D9DC1A05872B009789FC /* wb_create.html */,
+				EFD3D9DD1A05872B009789FC /* wb_custom.html */,
+				EFD3D9DE1A05872B009789FC /* wb_manage.html */,
+				EFD3D9DF1A05872B009789FC /* wb_saving.html */,
+				EFD3D9E01A05872B009789FC /* wbgraph.png */,
+				EFD3D9E11A05872B009789FC /* weightbalance.html */,
+			);
+			name = help;
+			path = en.lproj/help;
+			sourceTree = "<group>";
+		};
+		EFDBD7C41A4F884E0074DBE5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBD7C51A4F88820074DBE5 /* NSString+DrawString.h */,
+				EFDBD7C61A4F88820074DBE5 /* NSString+DrawString.m */,
+				EFC5F5401A79430700E8652C /* NSString+FormatDecimal.h */,
+				EFC5F5411A79430700E8652C /* NSString+FormatDecimal.m */,
+				EFC5F5431A7AA00100E8652C /* UIView+FirstResponder.h */,
+				EFC5F5441A7AA00100E8652C /* UIView+FirstResponder.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EFDED35719FE87E200419268 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				EFDED35819FE881200419268 /* CMCustomPushSegue.h */,
+				EFDED35919FE881200419268 /* CMCustomPushSegue.m */,
+			);
+			name = Segues;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA2D10F19D879D0008DD44F /* E6B */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA2D13619D879D0008DD44F /* Build configuration list for PBXNativeTarget "E6B" */;
+			buildPhases = (
+				EFA2D10C19D879D0008DD44F /* Sources */,
+				EFA2D10D19D879D0008DD44F /* Frameworks */,
+				EFA2D10E19D879D0008DD44F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = E6B;
+			productName = E6B;
+			productReference = EFA2D11019D879D0008DD44F /* E6B.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFA2D12B19D879D0008DD44F /* E6BTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA2D13919D879D0008DD44F /* Build configuration list for PBXNativeTarget "E6BTests" */;
+			buildPhases = (
+				EFA2D12819D879D0008DD44F /* Sources */,
+				EFA2D12919D879D0008DD44F /* Frameworks */,
+				EFA2D12A19D879D0008DD44F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA2D12E19D879D0008DD44F /* PBXTargetDependency */,
+			);
+			name = E6BTests;
+			productName = E6BTests;
+			productReference = EFA2D12C19D879D0008DD44F /* E6BTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA2D10819D879D0008DD44F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Glenview Software";
+				TargetAttributes = {
+					EFA2D10F19D879D0008DD44F = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = HY47YLATK7;
+					};
+					EFA2D12B19D879D0008DD44F = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EFA2D10F19D879D0008DD44F;
+					};
+				};
+			};
+			buildConfigurationList = EFA2D10B19D879D0008DD44F /* Build configuration list for PBXProject "E6B" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA2D10719D879D0008DD44F;
+			productRefGroup = EFA2D11119D879D0008DD44F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA2D10F19D879D0008DD44F /* E6B */,
+				EFA2D12B19D879D0008DD44F /* E6BTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA2D10E19D879D0008DD44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3D9FE1A05872B009789FC /* station.png in Resources */,
+				EFD3D9E71A05872B009789FC /* calc_fweight.html in Resources */,
+				EFD3D9F31A05872B009789FC /* changing_units.html in Resources */,
+				EFD3D9E21A05872B009789FC /* about.html in Resources */,
+				EFD3D9F71A05872B009789FC /* entering_stations.html in Resources */,
+				EFD3DA021A05872B009789FC /* wb_create.html in Resources */,
+				EFD3DA051A05872B009789FC /* wb_saving.html in Resources */,
+				EFD3D9F61A05872B009789FC /* e6b.css in Resources */,
+				EFD3D9E51A05872B009789FC /* calc_convert.html in Resources */,
+				EFD3D9F41A05872B009789FC /* coming_soon.html in Resources */,
+				EFD3DA011A05872B009789FC /* using_e6b.html in Resources */,
+				EFD3D9E61A05872B009789FC /* calc_flightplanner.html in Resources */,
+				EFD3D9F01A05872B009789FC /* calc_va.html in Resources */,
+				EFD3D9FB1A05872B009789FC /* keypad.png in Resources */,
+				EFD3D9ED1A05872B009789FC /* calc_tas.html in Resources */,
+				EFD3D9F51A05872B009789FC /* disclaimer.html in Resources */,
+				EFD3D9F21A05872B009789FC /* calc_xwind.html in Resources */,
+				EFD3D9F91A05872B009789FC /* exampleunit.png in Resources */,
+				EFD3DA031A05872B009789FC /* wb_custom.html in Resources */,
+				EFD3DA041A05872B009789FC /* wb_manage.html in Resources */,
+				EFA2D12219D879D0008DD44F /* Main.storyboard in Resources */,
+				EFD3D9EB1A05872B009789FC /* calc_rca.html in Resources */,
+				EFD3D9E81A05872B009789FC /* calc_htc.html in Resources */,
+				EFD3D9EA1A05872B009789FC /* calc_pden.html in Resources */,
+				EFA2D12719D879D0008DD44F /* LaunchScreen.xib in Resources */,
+				EF08B0D21A28F634007EAEE3 /* aircraft.xml in Resources */,
+				EFD3DA061A05872B009789FC /* wbgraph.png in Resources */,
+				EFD3D9EC1A05872B009789FC /* calc_speed.html in Resources */,
+				EFD3D9E31A05872B009789FC /* calc_burn.html in Resources */,
+				EFD3D9EF1A05872B009789FC /* calc_thsc.html in Resources */,
+				EFD3D9FA1A05872B009789FC /* index.html in Resources */,
+				EFD3D9FD1A05872B009789FC /* sample_map.png in Resources */,
+				EFD3D9EE1A05872B009789FC /* calc_tcs.html in Resources */,
+				EFD3D9FF1A05872B009789FC /* station_open.png in Resources */,
+				EFD3D9F11A05872B009789FC /* calc_wsd.html in Resources */,
+				EFD3D9FC1A05872B009789FC /* sample_itunes.png in Resources */,
+				EFA2D12419D879D0008DD44F /* Images.xcassets in Resources */,
+				EFD3DA071A05872B009789FC /* weightbalance.html in Resources */,
+				EFD3D9E41A05872B009789FC /* calc_cloud.html in Resources */,
+				EFD3D9F81A05872B009789FC /* entering_values.html in Resources */,
+				EFE4B2FC1A460AF2005451B1 /* CMTableEditorStoryboard.storyboard in Resources */,
+				EFD3DA001A05872B009789FC /* unitdisplay.png in Resources */,
+				EFD3D9E91A05872B009789FC /* calc_mag.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA2D12A19D879D0008DD44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA2D10C19D879D0008DD44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBE54AC1A091FE000EA94F3 /* CMFuelWeight.m in Sources */,
+				EFA2D11919D879D0008DD44F /* AppDelegate.m in Sources */,
+				EF09A14A1A3FC3470020E67A /* CMTablePage.m in Sources */,
+				EFBE54601A091FD400EA94F3 /* CMSpeed.m in Sources */,
+				EF09A1591A40DC3E0020E67A /* CMAircraftClassPage.m in Sources */,
+				EFBE54AA1A091FE000EA94F3 /* CMFuelForWeight.m in Sources */,
+				EFBE54A11A091FE000EA94F3 /* CMCloudBaseCalculator.m in Sources */,
+				EFBE545D1A091FD400EA94F3 /* CMLength.m in Sources */,
+				EFE4B2FA1A46060C005451B1 /* CMTableEditorViewCell.m in Sources */,
+				EFA2D14519D88AE5008DD44F /* CMCalculator.m in Sources */,
+				EF09A15C1A40DCE10020E67A /* CMAircraftFuelPage.m in Sources */,
+				EFBE54A91A091FE000EA94F3 /* CMFuelEndurance.m in Sources */,
+				EFBE54B51A091FE000EA94F3 /* CMPlanCalculation.m in Sources */,
+				EFBE54AD1A091FE000EA94F3 /* CMHeadingCalculation.m in Sources */,
+				EFBE545C1A091FD400EA94F3 /* CMDistance.m in Sources */,
+				EFBE54BA1A091FE000EA94F3 /* CMTrueHeadingCalculation.m in Sources */,
+				EFBE54A31A091FE000EA94F3 /* CMCrossWind.m in Sources */,
+				EFA2D14819D892AC008DD44F /* CMInputView.m in Sources */,
+				EF09A14F1A405F370020E67A /* CMTableGroup.m in Sources */,
+				EFBE54B11A091FE000EA94F3 /* CMOneFuelForWeight.m in Sources */,
+				EFBE545E1A091FD400EA94F3 /* CMMoment.m in Sources */,
+				EFDED36019FEB57200419268 /* CMHeaderView.m in Sources */,
+				EFBE54621A091FD400EA94F3 /* CMTime.m in Sources */,
+				EFA2D11C19D879D0008DD44F /* MasterViewController.m in Sources */,
+				EFA2D14E19D8B9D3008DD44F /* CMMutableString.m in Sources */,
+				EF20FEF81A0EBD0A00DB0702 /* CMWBCalculation.m in Sources */,
+				EFBE54A61A091FE000EA94F3 /* CME6BDataStore.m in Sources */,
+				EF20FEF51A0EBC6500DB0702 /* CMWBCalculationStore.m in Sources */,
+				EF08B0C71A28C004007EAEE3 /* CMTextField.m in Sources */,
+				EF09A1621A40DD020020E67A /* CMAircraftWBDataPage.m in Sources */,
+				EFA2D14119D88755008DD44F /* CMCalcKeyboardView.m in Sources */,
+				EF94229E19DED41F0075B6DC /* CMOutputView.m in Sources */,
+				EFBE545F1A091FD400EA94F3 /* CMPressure.m in Sources */,
+				EF09A1551A4067A60020E67A /* CMTableEditorViewController.m in Sources */,
+				EFBE54A41A091FE000EA94F3 /* CMDistanceTraveled.m in Sources */,
+				EFBE54AB1A091FE000EA94F3 /* CMFuelRequired.m in Sources */,
+				EFBE54451A091FAF00EA94F3 /* CMValue.m in Sources */,
+				EFBE54611A091FD400EA94F3 /* CMTemperature.m in Sources */,
+				EFC5F5421A79430700E8652C /* NSString+FormatDecimal.m in Sources */,
+				EFC37FAA1A77F0E9009B5A6B /* CMArmPickerTableViewController.m in Sources */,
+				EFDB046B1A59EF0200DB55E0 /* CMAircraftEditorSelectorViewController.m in Sources */,
+				EFC5F5451A7AA00100E8652C /* UIView+FirstResponder.m in Sources */,
+				EFC959B01A16D3AF0057E503 /* CMXMLParser.m in Sources */,
+				EFBE54651A091FD400EA94F3 /* CMWeight.m in Sources */,
+				EFBE54B21A091FE000EA94F3 /* CMOneFuelWeight.m in Sources */,
+				EFBE54641A091FD400EA94F3 /* CMVolumeBurn.m in Sources */,
+				EF08B0D01A28F582007EAEE3 /* CMAircraftDatabase.m in Sources */,
+				EF09A1651A40DD0F0020E67A /* CMAircraftWBPointPage.m in Sources */,
+				EFBE54AF1A091FE000EA94F3 /* CMMagneticHeadingCalculation.m in Sources */,
+				EFDED35D19FE953800419268 /* CMUnitPickerTableViewController.m in Sources */,
+				EFBE54BC1A091FE000EA94F3 /* CMWindCalculator.m in Sources */,
+				EFBE54B61A091FE000EA94F3 /* CMReqCalibratedAirspeed.m in Sources */,
+				EFBE54B81A091FE000EA94F3 /* CMSpeedCalculation.m in Sources */,
+				EFA2D11619D879D0008DD44F /* main.m in Sources */,
+				EFBE54661A091FD400EA94F3 /* Measurement.m in Sources */,
+				EF08B0CA1A28D261007EAEE3 /* CMAircraftTableViewController.m in Sources */,
+				EFF706351A3CC04F00E5B019 /* CMLayoutUtils.m in Sources */,
+				EF20FEF01A0EB8BA00DB0702 /* Angle.c in Sources */,
+				EFBE54B01A091FE000EA94F3 /* CMManeuveringSpeed.m in Sources */,
+				EFBE54631A091FD400EA94F3 /* CMVolume.m in Sources */,
+				EFBE54A71A091FE000EA94F3 /* CMFindHeadingCalculation.m in Sources */,
+				EFBE54BB1A091FE000EA94F3 /* CMUnitCalculations.m in Sources */,
+				EFA2D11F19D879D0008DD44F /* DetailViewController.m in Sources */,
+				EFBE54A81A091FE000EA94F3 /* CMFuelBurnRate.m in Sources */,
+				EFBE54B91A091FE000EA94F3 /* CMTrueAirspeedCalculation.m in Sources */,
+				EF20FEF11A0EB8BA00DB0702 /* CMComplexHull.c in Sources */,
+				EFBE54A51A091FE000EA94F3 /* CME6BCalculationStore.m in Sources */,
+				EFBE54B41A091FE000EA94F3 /* CMPDAltCalculation.m in Sources */,
+				EFDBD7C71A4F88820074DBE5 /* NSString+DrawString.m in Sources */,
+				EFBE54B31A091FE000EA94F3 /* CMOneUnitCalculator.m in Sources */,
+				EFC97CE21A86CDC900D6A14C /* CMDrawingSupport.m in Sources */,
+				EFE4B2FF1A460E19005451B1 /* CMTableEditorBooleanViewCell.m in Sources */,
+				EF09A1521A40626A0020E67A /* CMTableItem.m in Sources */,
+				EFA2D14B19D896EB008DD44F /* CMCalcKeyboard.m in Sources */,
+				EFBE54B71A091FE000EA94F3 /* CMReqTrueAirspeed.m in Sources */,
+				EF08B0C41A27CE46007EAEE3 /* CMMenuView.m in Sources */,
+				EFDED35A19FE881200419268 /* CMCustomPushSegue.m in Sources */,
+				EFD3D9BA1A0585A8009789FC /* CMHelpViewController.m in Sources */,
+				EFC959AC1A16D2E00057E503 /* CMWBData.m in Sources */,
+				EFE4B2F51A45DDFC005451B1 /* CMTableEditorMenuViewController.m in Sources */,
+				EF25EDC31A12ED9A006D9D32 /* CMWBGraph.m in Sources */,
+				EFBE54AE1A091FE000EA94F3 /* CMLegTimeCalculator.m in Sources */,
+				EF20FEED1A0E95A500DB0702 /* CMWBViewController.m in Sources */,
+				EF09A15F1A40DCF30020E67A /* CMAircraftStationPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA2D12819D879D0008DD44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA2D13319D879D0008DD44F /* E6BTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFA2D12E19D879D0008DD44F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA2D10F19D879D0008DD44F /* E6B */;
+			targetProxy = EFA2D12D19D879D0008DD44F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFA2D12019D879D0008DD44F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA2D12119D879D0008DD44F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFA2D12519D879D0008DD44F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA2D12619D879D0008DD44F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFA2D13419D879D0008DD44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFA2D13519D879D0008DD44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFA2D13719D879D0008DD44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/woody/Development/ios/E6B/v2/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = E6B/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glenviewsoftware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EFA2D13819D879D0008DD44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/woody/Development/ios/E6B/v2/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = E6B/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glenviewsoftware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EFA2D13A19D879D0008DD44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = E6BTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glenviewsoftware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E6B.app/E6B";
+			};
+			name = Debug;
+		};
+		EFA2D13B19D879D0008DD44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = E6BTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glenviewsoftware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E6B.app/E6B";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA2D10B19D879D0008DD44F /* Build configuration list for PBXProject "E6B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA2D13419D879D0008DD44F /* Debug */,
+				EFA2D13519D879D0008DD44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA2D13619D879D0008DD44F /* Build configuration list for PBXNativeTarget "E6B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA2D13719D879D0008DD44F /* Debug */,
+				EFA2D13819D879D0008DD44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA2D13919D879D0008DD44F /* Build configuration list for PBXNativeTarget "E6BTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA2D13A19D879D0008DD44F /* Debug */,
+				EFA2D13B19D879D0008DD44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA2D10819D879D0008DD44F /* Project object */;
+}

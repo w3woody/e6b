@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7AE614908AD742D517FD1697FBD7763D95722C2B" : 0,
+    "d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3545295C-DE4D-4D67-B971-38ECE19CCE7C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7AE614908AD742D517FD1697FBD7763D95722C2B" : "",
+    "d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626" : "iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "E6B",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "E6B.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/w3woody\/e6b.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7AE614908AD742D517FD1697FBD7763D95722C2B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/glenview.svn.beanstalkapp.com\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d42cd237-ba4b-42b4-b7ab-25158ee7fcd2++4626"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+if [ $# -gt 0 ]; then
+    sips $1 -Z 29 --out icon-29.png
+    sips $1 -Z 58 --out icon-29@2x.png
+    sips $1 -Z 87 --out icon-29@3x.png
+
+    sips $1 -Z 40 --out icon-40.png
+    sips $1 -Z 80 --out icon-40@2x.png
+    sips $1 -Z 120 --out icon-40@3x.png
+
+    sips $1 -Z 60 --out icon-60.png
+    sips $1 -Z 120 --out icon-60@2x.png
+    sips $1 -Z 180 --out icon-60@3x.png
+
+    sips $1 -Z 76 --out icon-76.png
+    sips $1 -Z 152 --out icon-76@2x.png
+
+    sips $1 -Z 167 --out icon-83_5@2x.png
+
+    echo "Done."
+else
+    echo "You must provide the name of an image file to process."
+fi
