@@ -805,7 +805,7 @@
 			attributes = {
 				CLASSPREFIX = CM;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Glenview Software";
+				ORGANIZATIONNAME = "William Woody";
 				TargetAttributes = {
 					EFA2D10F19D879D0008DD44F = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -1118,7 +1118,7 @@
 				INFOPLIST_FILE = E6B/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.glenviewsoftware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaosinmotion.E6B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1137,7 +1137,7 @@
 				INFOPLIST_FILE = E6B/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.glenviewsoftware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaosinmotion.E6B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
