@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.glenviewsoftware.e6b.view.ListItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/listitem"
+    android:layout_height="44dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textColor="#FFFFFFFF"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textColor="#FFCCCCCC"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+</com.glenviewsoftware.e6b.view.ListItemLayout>

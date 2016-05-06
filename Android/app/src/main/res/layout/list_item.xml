@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.glenviewsoftware.e6b.view.ListItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/listitem"
+    android:layout_height="44dp" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFFFF"
+        android:text="TextView"
+        android:textSize="19dp" />
+
+</com.glenviewsoftware.e6b.view.ListItemLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:layout_toRightOf="@+id/textView"
+    android:background="#FF000000"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/insDel"
+        android:layout_width="44dp"
+        android:layout_height="match_parent"
+        android:padding="11dp"
+        android:src="@drawable/delete" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#FFFFFFFF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/fixedView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:ems="10"
+        android:gravity="right|center_vertical"
+        android:singleLine="true"
+        android:text="Value"
+        android:textColor="#FFCCCCCC"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/open"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/open" />
+
+</LinearLayout>
