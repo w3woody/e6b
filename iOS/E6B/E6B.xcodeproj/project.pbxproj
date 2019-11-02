@@ -148,6 +148,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2257B9F236E2345003465B6 /* E6B.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = E6B.entitlements; sourceTree = "<group>"; };
 		EF08B0C21A27CE46007EAEE3 /* CMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMenuView.h; sourceTree = "<group>"; };
 		EF08B0C31A27CE46007EAEE3 /* CMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMenuView.m; sourceTree = "<group>"; };
 		EF08B0C51A28C004007EAEE3 /* CMTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTextField.h; sourceTree = "<group>"; };
@@ -462,6 +463,7 @@
 		EFA2D11219D879D0008DD44F /* E6B */ = {
 			isa = PBXGroup;
 			children = (
+				B2257B9F236E2345003465B6 /* E6B.entitlements */,
 				EFA2D12019D879D0008DD44F /* Main.storyboard */,
 				EFA2D13C19D87AE5008DD44F /* View Controllers */,
 				EFA2D13D19D87AF6008DD44F /* Views */,
@@ -809,7 +811,7 @@
 				TargetAttributes = {
 					EFA2D10F19D879D0008DD44F = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = HY47YLATK7;
+						DevelopmentTeam = JXRDDKQ33V;
 					};
 					EFA2D12B19D879D0008DD44F = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -822,6 +824,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1109,18 +1112,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = E6B/E6B.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = JXRDDKQ33V;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/woody/Development/ios/E6B/v2/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = E6B/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaosinmotion.E6B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SUPPORTS_MACCATALYST = YES;
 			};
 			name = Debug;
 		};
@@ -1128,18 +1135,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = E6B/E6B.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/woody/Development/ios/E6B/v2/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = E6B/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaosinmotion.E6B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SUPPORTS_MACCATALYST = YES;
 			};
 			name = Release;
 		};

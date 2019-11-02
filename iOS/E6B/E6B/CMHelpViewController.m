@@ -27,7 +27,7 @@
 #import "CMHelpViewController.h"
 
 @interface CMHelpViewController ()
-@property (strong) IBOutlet UIWebView *webView;
+@property (strong) IBOutlet WKWebView *webView;
 @property (strong) IBOutlet UIBarButtonItem *prevButton;
 @property (strong) IBOutlet UIBarButtonItem *nextButton;
 @property (strong) IBOutlet UIBarButtonItem *refreshButton;
@@ -56,25 +56,27 @@
 /*																		*/
 /************************************************************************/
 
-- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
-{
-	NSURL *url = [request URL];
-	if ([url isFileURL]) {
-		[self.stopButton setEnabled:YES];
-		return YES;
-	} else {
-		[[UIApplication sharedApplication] openURL:url];
-		return NO;
-	}
-}
 
-- (void)webViewDidFinishLoad:(UIWebView *)webView
-{
-	[self.prevButton setEnabled:[webView canGoBack]];
-	[self.nextButton setEnabled:[webView canGoForward]];
-	[self.refreshButton setEnabled:YES];
-	[self.stopButton setEnabled:NO];
-}
+
+//- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
+//{
+//	NSURL *url = [request URL];
+//	if ([url isFileURL]) {
+//		[self.stopButton setEnabled:YES];
+//		return YES;
+//	} else {
+//        [[UIApplication sharedApplication] openURL:options:completionHandler:url];
+//		return NO;
+//	}
+//}
+
+//- (void)webViewDidFinishLoad:(UIWebView *)webView
+//{
+//	[self.prevButton setEnabled:[webView canGoBack]];
+//	[self.nextButton setEnabled:[webView canGoForward]];
+//	[self.refreshButton setEnabled:YES];
+//	[self.stopButton setEnabled:NO];
+//}
 
 - (IBAction)doPrev:(id)sender
 {
@@ -94,6 +96,30 @@
 - (IBAction)doStop:(id)sender
 {
 	[self.webView stopLoading];
+}
+
+/************************************************************************/
+/*                                                                        */
+/*    WKWebView Web Management                                            */
+/*                                                                        */
+/************************************************************************/
+
+-(void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
+    NSURL *url = navigationAction.request.URL;
+    if ([url isFileURL]) {
+        [self.stopButton setEnabled:YES];
+        decisionHandler(WKNavigationActionPolicyAllow);
+    } else {
+        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
+        decisionHandler(WKNavigationActionPolicyCancel);
+    }
+}
+
+-(void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
+    [self.prevButton setEnabled:[webView canGoBack]];
+    [self.nextButton setEnabled:[webView canGoForward]];
+    [self.refreshButton setEnabled:YES];
+    [self.stopButton setEnabled:NO];
 }
 
 @end
