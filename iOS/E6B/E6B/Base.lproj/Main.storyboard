@@ -320,6 +320,7 @@
                         <outlet property="prevButton" destination="ov8-ZO-qwX" id="0SW-Gb-c7s"/>
                         <outlet property="refreshButton" destination="yjq-bU-a4K" id="hHy-A5-Suz"/>
                         <outlet property="stopButton" destination="Khi-WK-uhg" id="vrY-OT-Fm1"/>
+                        <outlet property="webView" destination="awV-q2-X5J" id="OLe-b0-JI0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zI7-Fo-7Gk" userLabel="First Responder" sceneMemberID="firstResponder"/>
